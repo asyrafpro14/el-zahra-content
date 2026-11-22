@@ -48,25 +48,39 @@
    "slug": "el-zahra-sirah-perang-badar",
    "tajuk": "Perang Badar: 313 lawan 1,000",
    "file": "videos/el-zahra-sirah-perang-badar.mp4",
-   "status": "menunggu-semakan",
+   "status": "sedia",
    "gaya": "3d-low-poly",
    "caption": "313 orang berdepan 1,000 tentera. Cadangan Hubab bin Munzir tentang telaga diterima, dan sumber air dikuasai.\n\nSimpan video ini, dan ingat pengajarannya: kemenangan bermula dengan musyawarah.\n\nIlustrasi sahaja, bukan skala sebenar.\n\n#sirah #umrah #ziarahmadinah #elzahratravel",
    "dibuat": "2026-11-22",
    "jenis": "sirah",
-   "sumber": [],
-   "disemak_oleh": null
+   "sumber": [
+    "https://www.muftiwp.gov.my/ms/artikel/bayan-linnas/1809-badar-kubra-inspirasi-dan-ibrah-daripadanya",
+    "https://saudipedia.com/en/the-site-of-the-battle-of-badr",
+    "https://hadithunlocked.com/ibnhisham/49/18",
+    "https://en.wikipedia.org/wiki/Battle_of_Badr",
+    "https://humanappeal.org.uk/news/2024/03/the-battle-of-badr"
+   ],
+   "disemak_oleh": "Zaid",
+   "nota_semakan": "Disahkan: 313 lawan kira-kira 1,000 (Mufti WP: 313 atau 314, kira-kira 1,000); 17 Ramadan (Mufti WP); cadangan Hubab bin Munzir diterima (Mufti WP Bayan Linnas 29, Ibn Hisham; riwayat sirah, bukan hadis sahih, dan video menyampaikannya sebagai sejarah); hujan sebelum pertempuran (al-Anfal 8:11); Badar sekitar 150 km dari Madinah (Saudipedia). Nota: 'umat Islam tiba dahulu' hanya disokong satu sumber tetapi tidak bercanggah; 'malam itu hujan' ialah penceritaan umum."
   },
   {
    "slug": "el-zahra-sirah-hijrah-gua-thur",
    "tajuk": "Hijrah: kenapa ke selatan dahulu",
    "file": "videos/el-zahra-sirah-hijrah-gua-thur.mp4",
-   "status": "menunggu-semakan",
+   "status": "sedia",
    "gaya": "3d-low-poly",
    "caption": "Dari Makkah, perjalanan Hijrah tidak terus ke utara. Tiga hari di Gua Thur, kemudian menyusur laluan pantai menuju Madinah.\n\nDi Quba, masjid pertama dalam Islam dibina. Simpan video ini, dan kongsikan kepada yang bakal menziarahi Masjid Quba.\n\nIlustrasi sahaja, bukan skala sebenar.\n\n#sirah #umrah #ziarahmadinah #elzahratravel",
    "dibuat": "2026-11-22",
    "jenis": "sirah",
-   "sumber": [],
-   "disemak_oleh": null
+   "sumber": [
+    "https://sunnah.com/bukhari:3905",
+    "https://saudipedia.com/en/ghar-thawr",
+    "https://saudipedia.com/en/quba-mosque",
+    "https://www.islamweb.net/amp/en/fatwa/321220",
+    "https://halalbooking.com/en/blog/journeys-of-faith-the-hijrah-from-makkah-to-madinah"
+   ],
+   "disemak_oleh": "Zaid",
+   "nota_semakan": "Disahkan: tiga malam di Gua Thur dan laluan pantai (Sahih al-Bukhari 3905); gua di selatan Makkah (Saudipedia); pencari sampai ke mulut gua (riwayat al-Bukhari); jarak sekitar 480 km; Masjid Quba masjid pertama dibina dalam Islam (Saudipedia). Kisah labah-labah dan merpati tidak digunakan."
   },
   {
    "slug": "el-zahra-sirah-fathu-makkah",
@@ -77,8 +91,13 @@
    "caption": "10,000 tentera memasuki Makkah, hampir tanpa pertempuran. Penduduknya dimaafkan.\n\nHari ini jutaan jemaah bertawaf di tempat yang sama. Simpan video ini, dan ingat: kemenangan paling besar ialah memaafkan.\n\nIlustrasi sahaja, bukan skala sebenar.\n\n#sirah #umrah #ziarahmadinah #elzahratravel",
    "dibuat": "2026-11-22",
    "jenis": "sirah",
-   "sumber": [],
-   "disemak_oleh": null
+   "sumber": [
+    "https://seerah.gtaf.org/books/1/chapters/35/preparations-for-the-attach-on-makkah-and-the-prophets-attempt-at/",
+    "https://www.dawn.com/news/669529",
+    "https://wikiwand.com/en/Conquest_of_Mecca"
+   ],
+   "disemak_oleh": null,
+   "nota_semakan": "BELUM LULUS (Zaid, 22 Nov): ayat 'tentera Islam masuk dari empat arah' bercanggah antara sumber (Ar-Raheeq al-Makhtum menyebut tiga pasukan; sumber lain empat). Ikut SOP, sumber bercanggah perlu ayat umum, tetapi suara sudah dirakam. Perlu keputusan Asyraf: rakam semula ayat itu ('dari beberapa arah') atau lepaskan. Fakta lain disahkan: 10,000 tentera, tahun 8 Hijrah, unggun api, jaminan keselamatan, hampir tanpa pertempuran, berhala dimusnahkan, pengampunan umum."
   }
  ]
 }

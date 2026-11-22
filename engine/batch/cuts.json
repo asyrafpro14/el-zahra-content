@@ -1,0 +1,122 @@
+{
+ "tips-barang-terlupa": {
+  "src": "a",
+  "start": 0.0,
+  "end": 22.045,
+  "pad": 0.25
+ },
+ "tips-elak-sesat": {
+  "src": "a",
+  "start": 22.045,
+  "end": 43.345,
+  "pad": 0.25
+ },
+ "tips-jaga-kesihatan": {
+  "src": "a",
+  "start": 43.345,
+  "end": 64.692,
+  "pad": 0.25
+ },
+ "tips-tawaf-pertama": {
+  "src": "a",
+  "start": 64.692,
+  "end": 87.085,
+  "pad": 0.25
+ },
+ "tips-permit-raudhah": {
+  "src": "a",
+  "start": 87.085,
+  "end": 108.385,
+  "pad": 0.25
+ },
+ "tips-tiga-dokumen": {
+  "src": "a",
+  "start": 108.385,
+  "end": 126.845,
+  "pad": 0.25
+ },
+ "tips-jaga-kaki": {
+  "src": "a",
+  "start": 126.845,
+  "end": 148.365,
+  "pad": 0.25
+ },
+ "tips-bawa-wang": {
+  "src": "a",
+  "start": 148.365,
+  "end": 167.445,
+  "pad": 0.25
+ },
+ "tips-telefon": {
+  "src": "a",
+  "start": 167.445,
+  "end": 187.565,
+  "pad": 0.25
+ },
+ "tips-bawa-ibu-bapa": {
+  "src": "a",
+  "start": 187.565,
+  "end": 209.385,
+  "pad": 0.25
+ },
+ "larangan-ihram-lelaki": {
+  "src": "b",
+  "start": 0.0,
+  "end": 24.83,
+  "pad": 0.25
+ },
+ "larangan-ihram-wanita": {
+  "src": "b",
+  "start": 24.83,
+  "end": 44.19,
+  "pad": 0.25
+ },
+ "larangan-ihram-kuku-rambut-wangian": {
+  "src": "b",
+  "start": 44.19,
+  "end": 64.43,
+  "pad": 0.25
+ },
+ "larangan-jarang-disebut": {
+  "src": "b",
+  "start": 64.43,
+  "end": 87.33,
+  "pad": 0.25
+ },
+ "rukun-umrah": {
+  "src": "b",
+  "start": 87.33,
+  "end": 112.87,
+  "pad": 0.25
+ },
+ "ziarah-masjid-quba": {
+  "src": "b",
+  "start": 112.87,
+  "end": 136.29,
+  "pad": 0.25
+ },
+ "ziarah-raudhah": {
+  "src": "b",
+  "start": 136.29,
+  "end": 158.77,
+  "pad": 0.25
+ },
+ "ziarah-masjid-qiblatain": {
+  "src": "b",
+  "start": 158.77,
+  "end": 178.85,
+  "pad": 0.25
+ },
+ "adab-ziarah-makam-rasulullah": {
+  "src": "b",
+  "start": 178.85,
+  "end": 196.85,
+  "pad": 0.25
+ },
+ "ziarah-gua-hira": {
+  "src": "b",
+  "start": 196.85,
+  "end": 220.81,
+  "pad": 0.25
+ }
+}
