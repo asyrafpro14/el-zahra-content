@@ -8,3 +8,6 @@
 - Penyemak fakta dan hukum dilantik daripada staff AI: Zaid. Tiada semakan manusia; ikut had ketat dalam CLAUDE.md.
 - Instagram: 5 video SEHARI (35 seminggu), auto-post.
 - Variasikan: sirah, tips umrah, pantang larang umrah, ziarah, adab. Campurkan setiap hari.
+
+## 2026-11-22 (lewat malam, balasan kepada laporan Yusuf)
+- Sediakan siap-siap 20 video untuk esok dan seterusnya (stok 4 hari ikut campuran harian). Arahan diberi terus kepada Yusuf; kerja Idris (hasil) dan Zaid (semak) dijalankan dalam sesi Asyraf ini.
