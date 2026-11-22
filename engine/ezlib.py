@@ -50,7 +50,7 @@ def run(cfg):
     S = cfg["S"]; T2 = S.TS[1]; END, TOTAL = S.END, S.TOTAL; EV = cfg["events"]; EV["total"] = END; EV.setdefault("water", False)
     if os.environ.get("EVENTS"): json.dump(EV, open(os.environ["EVENTS"], "w")); print("events", END, [round(x, 2) for x in S.TS]); sys.exit(0)
     t_simpan, t_lesson, t_handle = cfg["cta"]; ST = cfg["build"]().arrays()
-    MARK = mk_text("EL ZAHRA TRAVEL", "serif", 40, (246, 226, 170), 9); ILU = mk_text("Ilustrasi, bukan skala sebenar", "med", 24, (250, 246, 236)); HANDLE = mk_text("@elzahratravel", "med", 38, (255, 214, 120))
+    MARK = mk_text("EL ZAHRA TRAVEL", "serif", 40, (246, 226, 170), 9); ILU = mk_text("Ilustrasi, bukan skala sebenar", "med", 24, (250, 246, 236)); HANDLE = mk_text("Follow @elzahratravel", "bold", 40, (255, 214, 120))
     LESSON = mk_text(cfg["lesson"], "bold", 42, (252, 248, 238))
     if LESSON.width > 1040: LESSON = LESSON.resize((1040, int(LESSON.height * 1040 / LESSON.width)), Image.LANCZOS)
     VIG = vignette(); WHITE = Image.new("RGB", (W, H), (255, 240, 214)); RED = Image.new("RGB", (W, H), (150, 30, 30)); CAPT = Captions(S, t_simpan - 0.1); GLOW = glow()

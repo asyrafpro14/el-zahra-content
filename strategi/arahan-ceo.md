@@ -12,3 +12,4 @@
 ## 2026-11-22 (lewat malam, balasan kepada laporan Yusuf)
 - Sediakan siap-siap 20 video untuk esok dan seterusnya (stok 4 hari ikut campuran harian). Arahan diberi terus kepada Yusuf; kerja Idris (hasil) dan Zaid (semak) dijalankan dalam sesi Asyraf ini.
 - Teguran: animasi tawaf dalam video bergerak ikut arah jam, salah. Tawaf mesti LAWAN ARAH JAM. Semak dua kali ketepatan visual ibadah walaupun perkara kecil; ambil serius. (Dibetulkan malam yang sama: 11 video latar Kaabah dan Fathu Makkah dirender semula.)
+- Setiap video mesti ada CTA untuk follow akaun El Zahra (@elzahratravel).
