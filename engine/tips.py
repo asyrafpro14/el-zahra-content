@@ -39,7 +39,7 @@ def dynamic(t):
     d = Scene(); glows = []
     if PRESET == "haram":
         for r, ph, sp in TAWAF:
-            ang = ph - t * 0.45 * sp; d.box(r * math.cos(ang), r * math.sin(ang), 0.05, 0.2, 0.2, 0.3, (248, 246, 240), rot=ang)
+            ang = ph + t * 0.45 * sp; d.box(r * math.cos(ang), r * math.sin(ang), 0.05, 0.2, 0.2, 0.3, (248, 246, 240), rot=ang)
         glows.append((0, 0, 1.6, 2.4 + 0.3 * math.sin(t * 3)))
     return d, glows
 def cam(t):

@@ -55,7 +55,7 @@ def dynamic(t):
         a_ = smooth((t - (T5 - 0.2)) / 1.0)
         for k, (r, ph, sp) in enumerate(TAWAF):
             if k / 150.0 > a_: continue
-            ang = ph - t * 0.45 * sp; d.box(r * math.cos(ang), r * math.sin(ang), 0.05, 0.2, 0.2, 0.3, (248, 246, 240), rot=ang)
+            ang = ph + t * 0.45 * sp; d.box(r * math.cos(ang), r * math.sin(ang), 0.05, 0.2, 0.2, 0.3, (248, 246, 240), rot=ang)
     if t_penduduk <= t < T4: glows.append((0, 0, 1.2, 3.0 * smooth((t - t_haram + 0.4) / 0.5)))
     if t >= t_maaf - 0.1: glows.append((0, 0, 1.6, 2.6 + 0.4 * math.sin(t * 3)))
     return d, glows

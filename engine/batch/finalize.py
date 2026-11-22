@@ -1,5 +1,5 @@
 # Potong suara pada jeda senyap, mux dengan SFX dan video senyap, mampat ke videos/el-zahra-<slug>.mp4
-# Guna (dari engine/): python3 batch/finalize.py <dir kerja> <a.mp3> <b.mp3>
+# Guna (dari engine/): python3 batch/finalize.py <dir kerja> <a.mp3> <b.mp3> [slug...]
 import json, subprocess, sys, re, os
 W, SRC = sys.argv[1], {"a": sys.argv[2], "b": sys.argv[3]}
 C = json.load(open("batch/cuts.json")); OUT = os.path.join("..", "videos")
@@ -15,8 +15,9 @@ def snap(src, t, last=False):
         d = 0 if a <= t <= b else min(abs(a - t), abs(b - t))
         if d <= 0.6 and (best is None or (b - a) > (best[1] - best[0])): best = (a, b)
     return best
-slugs = list(C); rep = []
+slugs = list(C); rep = []; ONLY = set(sys.argv[4:])   # pilihan: senarai slug selepas dua fail mp3
 for i, s in enumerate(slugs):
+    if ONLY and s not in ONLY: continue
     c = C[s]; src = c["src"]; wt = json.load(open("words/%s.json" % s)); st = c["start"]; pad = c["pad"]
     first = i == 0 or C[slugs[i - 1]]["src"] != src; last = i == len(slugs) - 1 or C[slugs[i + 1]]["src"] != src
     b0 = snap(src, st); b1 = snap(src, c["end"])
