@@ -79,7 +79,10 @@ class Script:
                 ws = b.lstrip("#").split(); s.BLOCKS.append([si, b[0] == "#", len(s.SCRIPT), len(s.SCRIPT) + len(ws) - 1]); s.SCRIPT.extend(ws)
         s.NW = len(s.SCRIPT); s.NS = len(scenes)
         if os.environ.get("COUNT"): print(s.NW); sys.exit(0)
-        s.WT = json.load(open(words)); assert len(s.WT) == s.NW, (len(s.WT), s.NW)
+        if not os.path.exists(words): words = os.path.join(os.path.dirname(os.path.abspath(__file__)), "words", os.path.basename(words))
+        if os.environ.get("FAKE"): s.WT = [[0.3 + 0.42 * i, 0.3 + 0.42 * i + 0.36] for i in range(s.NW)]
+        else: s.WT = json.load(open(words))
+        assert len(s.WT) == s.NW, (len(s.WT), s.NW)
         s.DISP = list(s.SCRIPT); s.TS = [0.0] + [s.st(s.SC_FIRST[k]) - 0.2 for k in range(1, s.NS)]; s.END = s.en(s.NW - 1) + 2.0; s.TOTAL = int(s.END * FPS)
     def st(s, i): return s.WT[i][0]
     def en(s, i): return s.WT[i][1]
@@ -94,7 +97,11 @@ class Script:
         return s.TS[si + 1] if si < s.NS - 1 else last
 
 FONTS = {"bold": "Poppins:bold", "med": "Poppins:medium", "serif": "Lora:bold", "anton": "Anton"}
-def fpath(p): return subprocess.check_output(["fc-match", "-f", "%{file}", p]).decode()
+HERE = os.path.dirname(os.path.abspath(__file__))
+LOCAL = {"Poppins:bold": "Poppins-Bold.ttf", "Poppins:medium": "Poppins-Medium.ttf", "Lora:bold": "Lora-Variable.ttf", "Anton": "Anton-Regular.ttf"}
+def fpath(p):
+    f = os.path.join(HERE, "fonts", LOCAL.get(p, ""))
+    return f if os.path.isfile(f) else subprocess.check_output(["fc-match", "-f", "%{file}", p]).decode()
 _f = {}
 def font(kind, size):
     if (kind, size) not in _f:

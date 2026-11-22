@@ -21,7 +21,7 @@ for si, blocks in enumerate(SCENES):
         ws = b.lstrip("#").split(); BLOCKS.append([si, b[0] == "#", len(SCRIPT), len(SCRIPT) + len(ws) - 1]); SCRIPT.extend(ws)
 NW = len(SCRIPT); NS = len(SCENES)
 if os.environ.get("COUNT"): print(NW); sys.exit(0)
-WT = json.load(open(os.environ.get("WORDS", "words5.json"))); assert len(WT) == NW, (len(WT), NW)
+WT = json.load(open(os.environ.get("WORDS", os.path.join(os.path.dirname(os.path.abspath(__file__)), "words", "words5.json")))); assert len(WT) == NW, (len(WT), NW)
 def st(i): return WT[i][0]
 def en(i): return WT[i][1]
 def wi(word, start=0): return next(i for i in range(start, NW) if SCRIPT[i].rstrip(",.?:") == word)
@@ -211,7 +211,9 @@ def cam(t):
     if K[i][1][1] * K[i + 1][1][1] < -200: p[2] += 26 * math.sin(math.pi * u)
     return p, lp(2)
 
-def fpath(p): return subprocess.check_output(["fc-match", "-f", "%{file}", p]).decode()
+def fpath(p):
+    f = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts", {"Poppins:bold": "Poppins-Bold.ttf", "Poppins:medium": "Poppins-Medium.ttf", "Lora:bold": "Lora-Variable.ttf"}.get(p, ""))
+    return f if os.path.isfile(f) else subprocess.check_output(["fc-match", "-f", "%{file}", p]).decode()
 _f = {}
 def font(kind, size):
     if (kind, size) not in _f:
