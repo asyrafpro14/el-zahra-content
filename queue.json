@@ -1,6 +1,6 @@
 {
  "base_url": "https://asyrafpro14.github.io/el-zahra-content/videos/",
- "nota": "status sedia hanya selepas semakan Zaid dengan sumber dicatat. Maryam auto-post video sedia, 5 sehari.",
+ "nota": "status sedia hanya selepas semakan Zaid dengan sumber dicatat. Maryam auto-post video sedia, 5 sehari. Giliran disusun ikut hari: sirah, tips, pantang larang, tips, ziarah/adab.",
  "videos": [
   {
    "slug": "el-zahra-sirah-perang-khandaq",
@@ -64,6 +64,73 @@
    "nota_semakan": "Disahkan: 313 lawan kira-kira 1,000 (Mufti WP: 313 atau 314, kira-kira 1,000); 17 Ramadan (Mufti WP); cadangan Hubab bin Munzir diterima (Mufti WP Bayan Linnas 29, Ibn Hisham; riwayat sirah, bukan hadis sahih, dan video menyampaikannya sebagai sejarah); hujan sebelum pertempuran (al-Anfal 8:11); Badar sekitar 150 km dari Madinah (Saudipedia). Nota: 'umat Islam tiba dahulu' hanya disokong satu sumber tetapi tidak bercanggah; 'malam itu hujan' ialah penceritaan umum."
   },
   {
+   "slug": "el-zahra-tips-barang-terlupa",
+   "tajuk": "3 barang kecil yang selalu terlupa",
+   "file": "videos/el-zahra-tips-barang-terlupa.mp4",
+   "status": "sedia",
+   "gaya": "3d-low-poly-tips",
+   "caption": "3 barang kecil yang ramai jemaah terlupa bawa: beg kasut kecil, botol air boleh lipat dan tali pengenalan dengan nombor hotel serta mutawwif anda.\n\nSimpan video ini sebelum anda berkemas.\n\nIlustrasi sahaja, bukan skala sebenar.\n\n#tipsumrah #umrah #elzahratravel",
+   "dibuat": "2026-11-22",
+   "jenis": "tips",
+   "sumber": [],
+   "disemak_oleh": "Zaid",
+   "nota_semakan": "Tips praktikal perjalanan; tiada fakta sirah, hadis atau hukum."
+  },
+  {
+   "slug": "el-zahra-larangan-ihram-lelaki",
+   "tajuk": "3 larangan ihram khusus untuk lelaki",
+   "file": "videos/el-zahra-larangan-ihram-lelaki.mp4",
+   "status": "sedia",
+   "gaya": "3d-low-poly-tips",
+   "caption": "Tiga larangan ihram khusus untuk jemaah lelaki: memakai pakaian bersarung seperti baju dan seluar, menutup kepala, dan memakai kasut bertutup. Pakai selipar yang menampakkan jari kaki dan tumit.\n\nSimpan video ini. Rujuk mutawwif anda untuk situasi khusus.\n\nIlustrasi sahaja, bukan skala sebenar.\n\n#larangihram #umrah #ilmuumrah #elzahratravel",
+   "dibuat": "2026-11-22",
+   "jenis": "pantang-larang",
+   "sumber": [
+    "https://tabunghaji.gov.my/sites/default/kah/TH-NOTA%20KAH%201446H%20_%20M5.pdf",
+    "https://prod-th-assets.s3.ap-southeast-1.amazonaws.com/pdf/tab-content/0/2025-09-26/Nota%20M10%201447H_FULL_small.pdf",
+    "https://muftiwp.gov.my/en/artikel/irsyad-fatwa/irsyad-fatwa-haji-korban-cat/4196-irsyad-al-fatwa-haji-dan-korban-siri-ke-33-memakai-deodoran-kerana-tidak-tahu-perlu-menjaga-pantang-larang-selepas-niat-bersyarat",
+    "https://muftiwp.gov.my/ms/artikel/al-kafi-li-al-fatawi/1856-al-kafi-li-al-fatawi-siri-ke-454-membalut-sebahagian-jari-kaki-semasa-berihram",
+    "https://www.nu.or.id/syariah/14-larangan-haji-dan-sanksinya-yang-harus-diperhatikan-ketika-ihram-MisRQ"
+   ],
+   "disemak_oleh": "Zaid",
+   "nota_semakan": "Disahkan (TH Nota KAH M5 dan M10, Mufti WP, NU): pakaian bersarung/berjahit, menutup kepala atau sebahagiannya. Kasut: ayat asal diubah kepada 'kasut bertutup; selipar yang menampakkan jari kaki dan tumit' ikut panduan TH."
+  },
+  {
+   "slug": "el-zahra-tips-elak-sesat",
+   "tajuk": "3 cara supaya tidak sesat di Masjidil Haram",
+   "file": "videos/el-zahra-tips-elak-sesat.mp4",
+   "status": "sedia",
+   "gaya": "3d-low-poly-tips",
+   "caption": "Masjidil Haram sangat luas. Ingat nombor pintu tempat anda masuk, tetapkan satu tempat berkumpul, dan simpan kad hotel serta nombor mutawwif di dalam poket.\n\nSimpan video ini, dan kongsikan kepada rombongan anda.\n\nIlustrasi sahaja, bukan skala sebenar.\n\n#tipsumrah #umrah #elzahratravel",
+   "dibuat": "2026-11-22",
+   "jenis": "tips",
+   "sumber": [
+    "https://ksaexpats.com/gates-of-masid-al-haram/",
+    "https://saudipedia.com/en/grand-mosque"
+   ],
+   "disemak_oleh": "Zaid",
+   "nota_semakan": "Disahkan: pintu Masjidil Haram bernombor (contoh Pintu 1 King Abdulaziz, 79 King Fahd). Selebihnya tips praktikal."
+  },
+  {
+   "slug": "el-zahra-ziarah-masjid-quba",
+   "tajuk": "Masjid Quba: solat di sini, pahala seperti umrah",
+   "file": "videos/el-zahra-ziarah-masjid-quba.mp4",
+   "status": "sedia",
+   "gaya": "3d-low-poly-tips",
+   "caption": "Masjid Quba ialah masjid pertama yang dibina dalam Islam. Dalam hadis riwayat Ibnu Majah (no. 1412): sesiapa yang bersuci di rumahnya, kemudian solat di Masjid Quba, pahalanya seperti umrah.\n\nJadi, ambil wuduk di hotel sebelum ke sana. Simpan video ini untuk ziarah Madinah anda.\n\nIlustrasi sahaja, bukan skala sebenar.\n\n#ziarah #umrah #elzahratravel #ziarahmadinah",
+   "dibuat": "2026-11-22",
+   "jenis": "ziarah",
+   "sumber": [
+    "https://saudipedia.com/en/quba-mosque",
+    "https://visitsaudi.com/en/madinah/attractions/masjid-quba-in-madinah",
+    "https://hadithunlocked.com/ibnmajah:1412",
+    "https://www.alim.org/hadith/sunan-ibn-majah/5/1412",
+    "https://en.tohed.com/hadith/ibn-majah/1412"
+   ],
+   "disemak_oleh": "Zaid",
+   "nota_semakan": "Disahkan: masjid pertama dibina dalam Islam (Saudipedia, visitsaudi). Hadis Sunan Ibn Majah 1412 daripada Sahl bin Hunaif: gred sahih (al-Albani), hasan (Darussalam, Zubair Ali Zai). Bukan sahih sepakat, jadi video hanya menyebut 'riwayat Ibnu Majah' tanpa perkataan 'sahih'."
+  },
+  {
    "slug": "el-zahra-sirah-hijrah-gua-thur",
    "tajuk": "Hijrah: kenapa ke selatan dahulu",
    "file": "videos/el-zahra-sirah-hijrah-gua-thur.mp4",
@@ -83,6 +150,72 @@
    "nota_semakan": "Disahkan: tiga malam di Gua Thur dan laluan pantai (Sahih al-Bukhari 3905); gua di selatan Makkah (Saudipedia); pencari sampai ke mulut gua (riwayat al-Bukhari); jarak sekitar 480 km; Masjid Quba masjid pertama dibina dalam Islam (Saudipedia). Kisah labah-labah dan merpati tidak digunakan."
   },
   {
+   "slug": "el-zahra-tips-jaga-kesihatan",
+   "tajuk": "3 amalan mudah menjaga kesihatan ketika umrah",
+   "file": "videos/el-zahra-tips-jaga-kesihatan.mp4",
+   "status": "sedia",
+   "gaya": "3d-low-poly-tips",
+   "caption": "Jaga kesihatan supaya ibadah anda lancar: minum air dengan kerap, pakai pelitup muka di tempat sesak, dan rehat secukupnya di antara waktu solat.\n\nSimpan video ini, dan kongsikan kepada keluarga anda.\n\nIlustrasi sahaja, bukan skala sebenar.\n\n#tipsumrah #umrah #elzahratravel",
+   "dibuat": "2026-11-22",
+   "jenis": "tips",
+   "sumber": [],
+   "disemak_oleh": "Zaid",
+   "nota_semakan": "Tips kesihatan umum; tiada dakwaan perubatan khusus, tiada fakta hukum."
+  },
+  {
+   "slug": "el-zahra-larangan-ihram-wanita",
+   "tajuk": "Larangan ihram yang wanita perlu tahu",
+   "file": "videos/el-zahra-larangan-ihram-wanita.mp4",
+   "status": "sedia",
+   "gaya": "3d-low-poly-tips",
+   "caption": "Dua larangan ihram yang jemaah wanita perlu tahu: menutup muka dengan purdah atau niqab, dan memakai sarung tangan. Pakaian pula seperti biasa, asalkan menutup aurat.\n\nSimpan video ini. Rujuk mutawwif anda untuk situasi khusus.\n\nIlustrasi sahaja, bukan skala sebenar.\n\n#larangihram #umrah #ilmuumrah #elzahratravel",
+   "dibuat": "2026-11-22",
+   "jenis": "pantang-larang",
+   "sumber": [
+    "https://tabunghaji.gov.my/sites/default/kah/TH-NOTA%20KAH%201446H%20_%20M5.pdf",
+    "https://prod-th-assets.s3.ap-southeast-1.amazonaws.com/pdf/tab-content/0/2025-09-26/Nota%20M10%201447H_FULL_small.pdf",
+    "https://www.muftiwp.gov.my/ms/artikel/irsyad-hukum/edisi-haji-korban/5336-irsyad-al-fatwa-khas-haji-dan-korban-siri-ke-68-hukum-memakai-pelitup-muka-ketika-dalam-ihram",
+    "https://muftiwp.gov.my/en/artikel/irsyad-fatwa/irsyad-fatwa-haji-korban-cat/4196-irsyad-al-fatwa-haji-dan-korban-siri-ke-33-memakai-deodoran-kerana-tidak-tahu-perlu-menjaga-pantang-larang-selepas-niat-bersyarat",
+    "https://www.nu.or.id/syariah/14-larangan-haji-dan-sanksinya-yang-harus-diperhatikan-ketika-ihram-MisRQ"
+   ],
+   "disemak_oleh": "Zaid",
+   "nota_semakan": "Disahkan (TH, Mufti WP Siri 68, NU). Nota: TH menyenaraikan sarung tangan untuk lelaki dan wanita, jadi video tidak menyebut 'wanita sahaja'. Pelitup muka kerana arahan pihak berkuasa atau wabak ada kelonggaran (Muzakarah Haji Kebangsaan, Mufti WP): tidak disentuh, ditampung oleh 'rujuk mutawwif'. 'Pakaian biasa menutup aurat' disokong secara jelas oleh satu sumber TH sahaja."
+  },
+  {
+   "slug": "el-zahra-tips-tawaf-pertama",
+   "tajuk": "3 tips untuk tawaf pertama anda",
+   "file": "videos/el-zahra-tips-tawaf-pertama.mp4",
+   "status": "sedia",
+   "gaya": "3d-low-poly-tips",
+   "caption": "Kali pertama bertawaf? Ikut arus jemaah dan jangan berhenti di tengah laluan. Tingkat atas biasanya lebih lapang, tetapi jarak pusingannya lebih jauh. Bergerak bersama kumpulan dan ikut panduan mutawwif anda.\n\nSimpan video ini sebelum tawaf pertama anda.\n\nIlustrasi sahaja, bukan skala sebenar.\n\n#tipsumrah #umrah #elzahratravel",
+   "dibuat": "2026-11-22",
+   "jenis": "tips",
+   "sumber": [
+    "https://madainproject.com/tawaf_distance",
+    "https://thepilgrim.co/tawaf-distance/"
+   ],
+   "disemak_oleh": "Zaid",
+   "nota_semakan": "Disahkan: jarak pusingan di tingkat atas lebih jauh (dua sumber, angka berbeza, jadi tiada angka disebut). 'Biasanya lebih lapang' ialah pemerhatian umum."
+  },
+  {
+   "slug": "el-zahra-ziarah-raudhah",
+   "tajuk": "Raudhah: taman syurga di dalam Masjid Nabawi",
+   "file": "videos/el-zahra-ziarah-raudhah.mp4",
+   "status": "sedia",
+   "gaya": "3d-low-poly-tips",
+   "caption": "Raudhah terletak di dalam Masjid Nabawi. Rasulullah bersabda: di antara rumahku dan mimbarku ialah satu taman daripada taman-taman syurga (Sahih al-Bukhari 1196, Sahih Muslim 1391).\n\nUntuk masuk, jemaah memerlukan permit. Simpan video ini untuk ziarah Madinah anda.\n\nIlustrasi sahaja, bukan skala sebenar.\n\n#ziarah #umrah #elzahratravel #ziarahmadinah",
+   "dibuat": "2026-11-22",
+   "jenis": "ziarah",
+   "sumber": [
+    "https://sunnah.com/bukhari:1196",
+    "https://sunnah.com/muslim:1391",
+    "https://visitmadinahsa.com/sa-en/destinations/The-Blessed-Rawdah",
+    "https://blog.wego.com/ms/panduan-permit-raudhah/"
+   ],
+   "disemak_oleh": "Zaid",
+   "nota_semakan": "Disahkan: hadis Sahih al-Bukhari 1196 dan Sahih Muslim 1391; lokasi di dalam Masjid Nabawi; permit diperlukan. Ayat 'permaidani hijau' dibuang kerana tidak dapat disahkan sebagai semasa."
+  },
+  {
    "slug": "el-zahra-sirah-fathu-makkah",
    "tajuk": "Fathu Makkah: kemenangan yang berakhir dengan kemaafan",
    "file": "videos/el-zahra-sirah-fathu-makkah.mp4",
@@ -98,6 +231,200 @@
    ],
    "disemak_oleh": null,
    "nota_semakan": "BELUM LULUS (Zaid, 22 Nov): ayat 'tentera Islam masuk dari empat arah' bercanggah antara sumber (Ar-Raheeq al-Makhtum menyebut tiga pasukan; sumber lain empat). Ikut SOP, sumber bercanggah perlu ayat umum, tetapi suara sudah dirakam. Perlu keputusan Asyraf: rakam semula ayat itu ('dari beberapa arah') atau lepaskan. Fakta lain disahkan: 10,000 tentera, tahun 8 Hijrah, unggun api, jaminan keselamatan, hampir tanpa pertempuran, berhala dimusnahkan, pengampunan umum."
+  },
+  {
+   "slug": "el-zahra-tips-permit-raudhah",
+   "tajuk": "3 perkara sebelum masuk ke Raudhah",
+   "file": "videos/el-zahra-tips-permit-raudhah.mp4",
+   "status": "sedia",
+   "gaya": "3d-low-poly-tips",
+   "caption": "Mahu masuk ke Raudhah? Permit ditempah melalui aplikasi Nusuk. Hadir awal sebelum masa pada permit, dan bawa telefon anda kerana permit disemak di pintu masuk.\n\nPeraturan boleh berubah, jadi semak aplikasi dan rujuk mutawwif anda untuk tempahan.\n\nIlustrasi sahaja, bukan skala sebenar.\n\n#tipsumrah #umrah #elzahratravel",
+   "dibuat": "2026-11-22",
+   "jenis": "tips",
+   "sumber": [
+    "https://blog.wego.com/ms/panduan-permit-raudhah/",
+    "https://gulfnews.com/world/gulf/saudi/saudi-arabia-adds-instant-booking-and-waitlist-options-for-al-rawdah-al-sharifa-via-nusuk-app-1.500024193",
+    "https://visitmadinahsa.com/sa-en/destinations/The-Blessed-Rawdah"
+   ],
+   "disemak_oleh": "Zaid",
+   "nota_semakan": "Disahkan (semasa 2026): permit melalui Nusuk, slot masa, kod QR disemak di pintu masuk. Kekerapan lawatan tidak disebut kerana sumber bercanggah."
+  },
+  {
+   "slug": "el-zahra-larangan-ihram-kuku-rambut-wangian",
+   "tajuk": "3 larangan ihram yang ramai terlupa",
+   "file": "videos/el-zahra-larangan-ihram-kuku-rambut-wangian.mp4",
+   "status": "sedia",
+   "gaya": "3d-low-poly-tips",
+   "caption": "Dalam ihram, tiga perkara ini dilarang dan ramai yang terlupa: memotong kuku, menanggalkan rambut atau bulu, dan memakai wangian pada badan atau pakaian.\n\nSimpan video ini. Rujuk mutawwif anda untuk situasi khusus.\n\nIlustrasi sahaja, bukan skala sebenar.\n\n#larangihram #umrah #ilmuumrah #elzahratravel",
+   "dibuat": "2026-11-22",
+   "jenis": "pantang-larang",
+   "sumber": [
+    "https://tabunghaji.gov.my/sites/default/kah/TH-NOTA%20KAH%201446H%20_%20M5.pdf",
+    "https://muftiwp.gov.my/en/artikel/irsyad-fatwa/irsyad-fatwa-haji-korban-cat/4196-irsyad-al-fatwa-haji-dan-korban-siri-ke-33-memakai-deodoran-kerana-tidak-tahu-perlu-menjaga-pantang-larang-selepas-niat-bersyarat",
+    "https://www.nu.or.id/syariah/14-larangan-haji-dan-sanksinya-yang-harus-diperhatikan-ketika-ihram-MisRQ"
+   ],
+   "disemak_oleh": "Zaid",
+   "nota_semakan": "Disahkan (TH Nota KAH M5, Mufti WP Siri 33, NU): ketiga-tiga larangan untuk lelaki dan wanita."
+  },
+  {
+   "slug": "el-zahra-tips-tiga-dokumen",
+   "tajuk": "3 dokumen untuk disemak sebelum berlepas",
+   "file": "videos/el-zahra-tips-tiga-dokumen.mp4",
+   "status": "sedia",
+   "gaya": "3d-low-poly-tips",
+   "caption": "Sebelum ke lapangan terbang, semak tiga dokumen: pasport yang masih sah sekurang-kurangnya enam bulan, visa umrah, dan rekod suntikan vaksin meningokokal.\n\nSimpan video ini, dan semak dengan agensi anda sebelum berlepas.\n\nIlustrasi sahaja, bukan skala sebenar.\n\n#tipsumrah #umrah #elzahratravel",
+   "dibuat": "2026-11-22",
+   "jenis": "tips",
+   "sumber": [
+    "https://www.moh.gov.sa/en/HealthAwareness/Pilgrims-Health/Documents/Health-Regulations-Umrah-EN.pdf",
+    "https://travelhealthpro.org.uk/factsheet/19/hajj-and-umrah",
+    "https://blog.wego.com/umrah-from-malaysia/",
+    "https://halalbooking.com/en/umrah/plan/umrah-requirements"
+   ],
+   "disemak_oleh": "Zaid",
+   "nota_semakan": "Disahkan: vaksin meningokokal ACYW wajib untuk jemaah umrah (Kementerian Kesihatan Saudi 1447H). Pasport enam bulan: hanya dua sumber komersial, tiada sumber rasmi dapat dibuka, jadi video tutup dengan 'semak dengan agensi anda'."
+  },
+  {
+   "slug": "el-zahra-adab-ziarah-makam-rasulullah",
+   "tajuk": "3 adab ketika menziarahi makam Rasulullah",
+   "file": "videos/el-zahra-adab-ziarah-makam-rasulullah.mp4",
+   "status": "sedia",
+   "gaya": "3d-low-poly-tips",
+   "caption": "Tiga adab ketika menziarahi makam Rasulullah: beri salam dengan tenang dan penuh hormat, rendahkan suara, dan jangan bersesak atau menolak jemaah lain.\n\nSimpan video ini, dan kongsikan kepada rombongan anda.\n\nIlustrasi sahaja, bukan skala sebenar.\n\n#ziarah #umrah #elzahratravel #adab",
+   "dibuat": "2026-11-22",
+   "jenis": "adab",
+   "sumber": [
+    "https://visitmadinahsa.com/sa-en/destinations/The-Blessed-Rawdah",
+    "https://nu.or.id/tasawuf-akhlak/perhatikan-lima-etika-ini-saat-ziarah-ke-makam-rasulullah-tzqMv",
+    "https://news.detik.com/berita/d-4828025/adab-masuk-masjid-nabawi-dan-ziarah-ke-makam-rasulullah",
+    "https://berita.rtm.gov.my/nasional/senarai-berita-nasional/senarai-artikel/jemaah-diingat-jaga-adab-di-raudah-elak-leka-dengan-gajet/"
+   ],
+   "disemak_oleh": "Zaid",
+   "nota_semakan": "Disahkan: salam dan merendahkan suara (NU, detik); tidak bersesak atau menolak (visitmadinahsa, RTM memetik pegawai TH). Tiada satu sumber rasmi Malaysia yang menyebut ketiga-tiganya sekali gus."
+  },
+  {
+   "slug": "el-zahra-tips-jaga-kaki",
+   "tajuk": "3 cara menjaga kaki ketika umrah",
+   "file": "videos/el-zahra-tips-jaga-kaki.mp4",
+   "status": "sedia",
+   "gaya": "3d-low-poly-tips",
+   "caption": "Umrah melibatkan banyak berjalan kaki. Pakai selipar yang sudah biasa anda pakai, bawa plaster dan krim tanpa wangian, dan rehatkan kaki setiap kali pulang ke hotel.\n\nSimpan video ini sebelum anda membeli selipar baru.\n\nIlustrasi sahaja, bukan skala sebenar.\n\n#tipsumrah #umrah #elzahratravel",
+   "dibuat": "2026-11-22",
+   "jenis": "tips",
+   "sumber": [
+    "https://tabunghaji.gov.my/sites/default/kah/TH-NOTA%20KAH%201446H%20_%20M5.pdf",
+    "https://muftiwp.gov.my/en/artikel/irsyad-fatwa/irsyad-fatwa-haji-korban-cat/4196-irsyad-al-fatwa-haji-dan-korban-siri-ke-33-memakai-deodoran-kerana-tidak-tahu-perlu-menjaga-pantang-larang-selepas-niat-bersyarat"
+   ],
+   "disemak_oleh": "Zaid",
+   "nota_semakan": "Tips praktikal. Krim disebut 'tanpa wangian' kerana wangian dilarang ketika ihram (TH, Mufti WP)."
+  },
+  {
+   "slug": "el-zahra-larangan-jarang-disebut",
+   "tajuk": "3 larangan yang jarang disebut",
+   "file": "videos/el-zahra-larangan-jarang-disebut.mp4",
+   "status": "sedia",
+   "gaya": "3d-low-poly-tips",
+   "caption": "Tiga larangan yang jarang disebut. Ketika ihram: memburu binatang buruan darat, dan berkahwin atau mengahwinkan orang lain. Di Tanah Haram: memotong atau mencabut pokok, sama ada dalam ihram atau tidak.\n\nSimpan video ini. Rujuk mutawwif anda untuk situasi khusus.\n\nIlustrasi sahaja, bukan skala sebenar.\n\n#larangihram #umrah #ilmuumrah #elzahratravel",
+   "dibuat": "2026-11-22",
+   "jenis": "pantang-larang",
+   "sumber": [
+    "https://tabunghaji.gov.my/sites/default/kah/TH-NOTA%20KAH%201446H%20_%20M5.pdf",
+    "https://prod-th-assets.s3.ap-southeast-1.amazonaws.com/pdf/tab-content/0/2025-09-26/Nota%20M10%201447H_FULL_small.pdf",
+    "https://muftiwp.gov.my/en/artikel/irsyad-fatwa/irsyad-fatwa-haji-korban-cat/4196-irsyad-al-fatwa-haji-dan-korban-siri-ke-33-memakai-deodoran-kerana-tidak-tahu-perlu-menjaga-pantang-larang-selepas-niat-bersyarat",
+    "https://www.nu.or.id/syariah/14-larangan-haji-dan-sanksinya-yang-harus-diperhatikan-ketika-ihram-MisRQ"
+   ],
+   "disemak_oleh": "Zaid",
+   "nota_semakan": "Disahkan (TH, Mufti WP, NU). Ayat pokok diubah: ia larangan Tanah Haram yang kekal walaupun tidak berihram, bukan larangan ihram semata-mata."
+  },
+  {
+   "slug": "el-zahra-tips-bawa-wang",
+   "tajuk": "3 tips membawa wang ke Tanah Suci",
+   "file": "videos/el-zahra-tips-bawa-wang.mp4",
+   "status": "sedia",
+   "gaya": "3d-low-poly-tips",
+   "caption": "Bawa wang ke Tanah Suci? Tukar Riyal sebelum berlepas, sediakan wang kecil untuk belanja harian, dan simpan di dalam beg silang yang dipakai di hadapan badan.\n\nSimpan video ini, dan kongsikan kepada rombongan anda.\n\nIlustrasi sahaja, bukan skala sebenar.\n\n#tipsumrah #umrah #elzahratravel",
+   "dibuat": "2026-11-22",
+   "jenis": "tips",
+   "sumber": [],
+   "disemak_oleh": "Zaid",
+   "nota_semakan": "Tips praktikal perjalanan; tiada fakta sirah, hadis atau hukum."
+  },
+  {
+   "slug": "el-zahra-ziarah-masjid-qiblatain",
+   "tajuk": "Masjid Qiblatain: kisah dua kiblat",
+   "file": "videos/el-zahra-ziarah-masjid-qiblatain.mp4",
+   "status": "sedia",
+   "gaya": "3d-low-poly-tips",
+   "caption": "Masjid Qiblatain di Madinah dikaitkan dengan peristiwa perubahan kiblat. Pada awalnya umat Islam solat menghadap Baitulmaqdis, kemudian turun perintah Allah supaya menghadap Kaabah (al-Baqarah, ayat 144).\n\nSimpan video ini untuk ziarah Madinah anda.\n\nIlustrasi sahaja, bukan skala sebenar.\n\n#ziarah #umrah #elzahratravel #ziarahmadinah",
+   "dibuat": "2026-11-22",
+   "jenis": "ziarah",
+   "sumber": [
+    "https://saudipedia.com/en/al-qiblatayn-mosque",
+    "https://www.utusan.com.my/gaya/2025/06/masjid-al-qiblatain-saksi-perpindahan-kiblat-ke-kaabah/"
+   ],
+   "disemak_oleh": "Zaid",
+   "nota_semakan": "Disahkan (Saudipedia, Utusan): perubahan kiblat dari Baitulmaqdis ke Kaabah, al-Baqarah 144. Tarikh, solat apa dan tempoh tidak disebut kerana riwayat berbeza."
+  },
+  {
+   "slug": "el-zahra-tips-telefon",
+   "tajuk": "3 persediaan telefon sebelum umrah",
+   "file": "videos/el-zahra-tips-telefon.mp4",
+   "status": "sedia",
+   "gaya": "3d-low-poly-tips",
+   "caption": "Telefon anda sangat membantu di Tanah Suci. Sediakan pelan data atau perayauan, bank kuasa yang dicas penuh, dan simpan lokasi hotel serta nombor mutawwif anda.\n\nSimpan video ini sebelum anda berlepas.\n\nIlustrasi sahaja, bukan skala sebenar.\n\n#tipsumrah #umrah #elzahratravel",
+   "dibuat": "2026-11-22",
+   "jenis": "tips",
+   "sumber": [],
+   "disemak_oleh": "Zaid",
+   "nota_semakan": "Tips praktikal perjalanan; tiada fakta sirah, hadis atau hukum."
+  },
+  {
+   "slug": "el-zahra-rukun-umrah",
+   "tajuk": "5 rukun umrah",
+   "file": "videos/el-zahra-rukun-umrah.mp4",
+   "status": "sedia",
+   "gaya": "3d-low-poly-tips",
+   "caption": "Umrah ada lima rukun: niat ihram, tawaf, sa'i, bercukur atau bergunting, dan tertib. Rukun tidak boleh diganti dengan dam.\n\nSimpan video ini. Rujuk mutawwif anda untuk situasi khusus.\n\nIlustrasi sahaja, bukan skala sebenar.\n\n#larangihram #umrah #ilmuumrah #elzahratravel",
+   "dibuat": "2026-11-22",
+   "jenis": "pantang-larang",
+   "sumber": [
+    "https://tabunghaji.gov.my/sites/default/kah/NOTA%20KAH%201446H%20_%20M10%20(1)_0.pdf",
+    "https://prod-th-assets.s3.ap-southeast-1.amazonaws.com/pdf/tab-content/0/2025-09-26/Nota%20M10%201447H_FULL_small.pdf",
+    "https://nu.or.id/syariah/5-rukun-umrah-yang-tidak-boleh-ditinggalkan-1KXoV",
+    "https://tabunghaji.gov.my/sites/default/kah/TH-NOTA%20KAH%201446H%20_%20M3.pdf"
+   ],
+   "disemak_oleh": "Zaid",
+   "nota_semakan": "Disahkan (TH Nota KAH M10, NU): lima rukun umrah mazhab Syafi'i. Ayat 'tertinggal satu, umrah tidak sah' diganti dengan 'rukun tidak boleh diganti dengan dam' yang lebih tepat."
+  },
+  {
+   "slug": "el-zahra-tips-bawa-ibu-bapa",
+   "tajuk": "3 perkara apabila membawa ibu bapa menunaikan umrah",
+   "file": "videos/el-zahra-tips-bawa-ibu-bapa.mp4",
+   "status": "sedia",
+   "gaya": "3d-low-poly-tips",
+   "caption": "Membawa ibu bapa menunaikan umrah? Tanya mutawwif anda tentang perkhidmatan kerusi roda, pilih waktu yang kurang sesak, dan beri mereka masa rehat di antara ibadah.\n\nSimpan video ini, dan kongsikan kepada adik-beradik anda.\n\nIlustrasi sahaja, bukan skala sebenar.\n\n#tipsumrah #umrah #elzahratravel",
+   "dibuat": "2026-11-22",
+   "jenis": "tips",
+   "sumber": [],
+   "disemak_oleh": "Zaid",
+   "nota_semakan": "Tips praktikal perjalanan; tiada fakta sirah, hadis atau hukum."
+  },
+  {
+   "slug": "el-zahra-ziarah-gua-hira",
+   "tajuk": "Gua Hira: tempat wahyu pertama diturunkan",
+   "file": "videos/el-zahra-ziarah-gua-hira.mp4",
+   "status": "sedia",
+   "gaya": "3d-low-poly-tips",
+   "caption": "Di Gua Hira, berhampiran puncak Jabal Nur di Makkah, wahyu pertama diturunkan: lima ayat pertama Surah al-Alaq.\n\nMendaki ke sana bukan rukun atau wajib umrah, jadi utamakan kesihatan anda. Simpan video ini untuk ziarah Makkah anda.\n\nIlustrasi sahaja, bukan skala sebenar.\n\n#ziarah #umrah #elzahratravel #ziarahmakkah",
+   "dibuat": "2026-11-22",
+   "jenis": "ziarah",
+   "sumber": [
+    "https://www.sinarharian.com.my/article/728934/berita/nasional/video-jika-ada-kesempatan-dakilah-jabal-nur",
+    "https://www.kosmo.com.my/2022/04/19/gua-hira-titik-permulaan-islam/",
+    "https://www.metrotvnews.com/read/koGCdrQW-mengenal-gua-hira-jejak-spiritualitas-di-puncak-jabal-nur"
+   ],
+   "disemak_oleh": "Zaid",
+   "nota_semakan": "Disahkan: wahyu pertama, al-Alaq 1 hingga 5, Gua Hira di Jabal Nur. Ketinggian tidak disebut (sumber bercanggah). 'Bukan rukun atau wajib umrah' selari dengan lima rukun umrah TH dan kenyataan pembimbing ibadat TH."
   }
  ]
 }

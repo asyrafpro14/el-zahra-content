@@ -33,6 +33,12 @@ Yusuf (General Manager, melapor kepada Asyraf), Maryam (Brand Director, penerbit
 ## Templat tips (untuk video bukan sirah)
 `engine/tips.py`: latar 3D (PRESET `haram` atau `madinah`), kad senarai bernombor, kapsyen ikut perkataan. Salin fail, tukar TAJUK, SC, ROWS, HOOK, LESSON. 40 hingga 55 patah perkataan (20 hingga 28 saat). `FAKE=1 PREVIEW=1,6,12 python3 tips.py` untuk semak susun atur sebelum ada suara. Boleh tambah PRESET baru (contoh lapangan terbang, bilik hotel, miqat) dengan gaya yang sama.
 
+## Enjin batch (tips / pantang larang / ziarah / adab)
+`engine/tips_batch.py` + `engine/batch/specs.py`: satu entri setiap video (slug, jenis, preset, tajuk, kad, hook, lesson, rows, sc). PRESET: `haram`, `madinah`, `quba`, `qiblatain`, `hira`. Semak susun atur: `SLUG=<slug> FAKE=1 PREVIEW=1,9 python3 tips_batch.py`. Render: `batch/render.sh <dir> <slug>...`, kemudian `python3 batch/finalize.py <dir> <a.mp3> <b.mp3>` (potong pada jeda senyap ikut `batch/cuts.json`, mux, mampat ke `videos/el-zahra-<slug>.mp4`).
+- Had ElevenLabs: 5,000 aksara setiap rakaman (kira-kira 10 skrip tips). Batch lebih besar perlu dipecah kepada beberapa rakaman.
+- Dari sesi cloud, muat turun mp3 (API dan CDN ElevenLabs) disekat: render tanpa suara dahulu, kemudian minta Asyraf attach mp3.
+- Zaid semak skrip SEBELUM suara dirakam, supaya ayat boleh dibetulkan tanpa membazir kredit.
+
 ## Bajet kredit ElevenLabs (kuota dikongsi dengan Mr Maza, pelan Creator ~121k sebulan)
 El Zahra: maksimum 15,000 kredit seminggu. Semak `account_get_usage` sebelum setiap batch. Jika baki akaun bawah 25,000, BERHENTI jana suara, guna stok sedia ada, dan lapor kepada Yusuf supaya Asyraf putuskan (naik taraf pelan atau kurangkan jumlah).
 
