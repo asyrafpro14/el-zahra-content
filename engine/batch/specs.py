@@ -65,3 +65,17 @@ add("adab-ziarah-makam-rasulullah", "adab", "madinah", "3 adab ketika menziarahi
 add("ziarah-gua-hira", "ziarah", "hira", "Gua Hira: tempat wahyu pertama diturunkan", "GUA HIRA", ["Wahyu ", "pertama"], "Ziarah sahaja, bukan rukun umrah",
     ["Gua Hira, Jabal Nur", "Wahyu pertama: Iqra", "Utamakan kesihatan anda"],
     [["Di sebuah gua kecil di Makkah,", "wahyu pertama diturunkan."], ["Inilah Gua Hira,", "berhampiran puncak Jabal Nur."], ["Di sinilah turunnya lima ayat pertama", "Surah al-Alaq, bermula dengan Iqra."], ["Mendaki ke sana bukan rukun atau wajib umrah,", "jadi utamakan kesihatan anda."], ["#Simpan video ini untuk ziarah Makkah anda."]])
+
+# Batch 2026-11-24 (skrip/2026-11-24.md). BELUM dirakam: tiada words/<slug>.json lagi, guna FAKE=1 untuk semak susun atur.
+add("tips-sai-pertama", "tips", "haram", "3 perkara untuk sa'i pertama anda", "3 PERKARA SA'I PERTAMA", ["Sa'i ", "kali pertama?"], "Simpan sebelum umrah anda",
+    ["Safa ke Marwah, tujuh kali", "Lampu hijau: lelaki berlari anak", "Ada laluan kerusi roda"],
+    [["Kali pertama bersa'i?", "Tiga perkara untuk anda ingat."], ["Satu: sa'i bermula di Safa", "dan berakhir di Marwah, tujuh kali.", "Safa ke Marwah dikira satu."], ["Dua: di kawasan lampu hijau,", "lelaki sunat berlari-lari anak.", "Wanita berjalan seperti biasa."], ["Tiga: jika tidak larat,", "ada laluan kerusi roda."], ["#Rujuk mutawwif anda untuk situasi khusus.", "Simpan video ini sebelum umrah anda."]])
+add("tips-sebelum-niat-ihram", "tips", "birali", "3 persediaan sebelum berniat ihram", "3 PERSEDIAAN SEBELUM NIAT IHRAM", ["Sebelum ", "niat ihram"], "Bersiap sebelum tiba di miqat",
+    ["Potong kuku, kemaskan rambut", "Mandi sunat ihram", "Pakaian ihram, solat sunat ihram"],
+    [["Sebelum berniat ihram,", "buat tiga persediaan ini."], ["Satu: potong kuku dan kemaskan rambut,", "kerana selepas berniat, ia dilarang."], ["Dua: mandi sunat ihram."], ["Tiga: pakai pakaian ihram,", "kemudian solat sunat ihram."], ["#Rujuk mutawwif anda untuk situasi khusus.", "Simpan video ini sebelum umrah anda."]])
+add("larangan-ihram-bila-bermula", "pantang-larang", "haram", "Larangan ihram: bila bermula, bila berakhir", "LARANGAN IHRAM: BILA BERMULA?", ["Larangan ihram: ", "bila bermula?"], M,
+    ["Bermula: sebaik berniat ihram", "Berterusan: tawaf dan sa'i", "Berakhir: selepas tahallul"],
+    [["Larangan ihram:", "bila bermula, dan bila berakhir?"], ["Satu: larangan bermula", "sebaik sahaja anda berniat ihram."], ["Dua: ia berterusan", "sepanjang tawaf dan sa'i."], ["Tiga: ia berakhir selepas tahallul,", "iaitu bercukur atau bergunting rambut selepas sa'i."], ["#Simpan video ini. Rujuk mutawwif anda untuk situasi khusus."]])
+add("ziarah-bir-ali", "ziarah", "birali", "Bir Ali: miqat jemaah dari Madinah", "BIR ALI, MIQAT DARI MADINAH", ["Dari Madinah ", "ke Makkah?"], "Bersiap dari hotel",
+    ["Bir Ali atau Zulhulaifah", "Miqat dari Madinah", "Solat sunat ihram dan niat"],
+    [["Dari Madinah ke Makkah untuk umrah?", "Anda akan singgah di sini."], ["Bir Ali, atau Zulhulaifah,", "tidak jauh dari Madinah."], ["Inilah miqat bagi penduduk Madinah,", "dan sesiapa yang melaluinya."], ["Di sini jemaah solat sunat ihram,", "kemudian berniat ihram."], ["#Jadi, bersiaplah dari hotel.", "Rujuk mutawwif anda untuk situasi khusus.", "Simpan video ini untuk perjalanan anda."]])

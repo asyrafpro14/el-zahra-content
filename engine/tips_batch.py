@@ -1,13 +1,13 @@
 # Enjin batch untuk video TIPS / PANTANG LARANG / ZIARAH / ADAB. Spesifikasi dalam batch/specs.py (satu entri setiap video).
 # Guna: SLUG=<slug> FAKE=1 PREVIEW=1,6,12 python3 tips_batch.py   |   SLUG=<slug> WORDS=words/<slug>.json OUT=x.mp4 python3 tips_batch.py
-# PRESET: haram (Kaabah), madinah (Masjid Nabawi), quba, qiblatain (masjid putih), hira (Jabal Nur).
+# PRESET: haram (Kaabah), madinah (Masjid Nabawi), quba, qiblatain, birali (masjid putih; birali = miqat Zulhulaifah), hira (Jabal Nur).
 from ezlib import *
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "batch")); from specs import V
 SP = V[os.environ["SLUG"]]; PRESET = SP["preset"]; TAJUK, SC, ROWS, LESSON = SP["kad"], SP["sc"], SP["rows"], SP["lesson"]
 HOOK = [(SP["hook"][0], GOLDT), (SP["hook"][1], INK)]
 SEED = sum(ord(c) for c in SP["slug"]); random.seed(SEED); VAR = SEED % 4
 S = Script(SC, os.environ.get("WORDS", "words/%s.json" % SP["slug"])); TS = S.TS; T2 = TS[1]; TL = TS[-1]; t_simpan = S.st(S.SC_FIRST[-1])
-MOSQ = PRESET in ("madinah", "quba", "qiblatain")
+MOSQ = PRESET in ("madinah", "quba", "qiblatain", "birali")
 def hgt_h(x, y):
     r = math.hypot(x, y); a = math.atan2(y, x); n = 0.2 * math.sin(x * 0.21 + 1.3) * math.cos(y * 0.17)
     return n * (0.25 if r < 13 else 1.0) + math.exp(-((r - 22) / 6.0) ** 2) * (7 + 2.5 * math.sin(a * 5 + 1 + VAR) + 1.5 * math.sin(a * 11)) + max(0.0, (r - 66) / 10.0) ** 1.6 * 6
@@ -75,7 +75,7 @@ def overlay(base, d, t, proj):
         while font("bold", fs).getlength(txt) > 780 and fs > 24: fs -= 2
         dd.text((128, y + 37), txt, font=font("bold", fs), fill=(252, 248, 238, int(255 * p)), anchor="lm")
     paste(base, im, W / 2, 300 + hh / 2, a)
-LBL = {"haram": ("Kaabah", (0, 0, 2.4)), "madinah": ("Masjid Nabawi", (0, 0, 2.4)), "quba": ("Masjid Quba", (0, 0, 2.4)), "qiblatain": ("Masjid Qiblatain", (0, 0, 2.4)), "hira": ("Gua Hira", (GUA[0], GUA[1], GUA[2] + 0.8))}[PRESET]
+LBL = {"haram": ("Kaabah", (0, 0, 2.4)), "madinah": ("Masjid Nabawi", (0, 0, 2.4)), "quba": ("Masjid Quba", (0, 0, 2.4)), "qiblatain": ("Masjid Qiblatain", (0, 0, 2.4)), "birali": ("Bir Ali (Zulhulaifah)", (0, 0, 2.4)), "hira": ("Gua Hira", (GUA[0], GUA[1], GUA[2] + 0.8))}[PRESET]
 run(dict(S=S, tag="tb", out=os.environ.get("OUT", "tips.mp4"), build=build, dynamic=dynamic, cam=cam, env=env, overlay=overlay, fogd=0.006,
     hook=[(0.1, HOOK, 330)], labels=[(LBL[0], None, LBL[1], 0.8, T2 - 0.2, GOLDT)], caps=[],
     cta=(t_simpan, t_simpan + 0.8, t_simpan + 1.6), lesson=LESSON,
