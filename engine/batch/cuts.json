@@ -118,5 +118,35 @@
   "start": 196.85,
   "end": 220.81,
   "pad": 0.25
+ },
+ "sirah-perjanjian-hudaibiyah": {
+  "src": "c",
+  "start": 0.0,
+  "end": 49.305,
+  "pad": 0.25
+ },
+ "tips-sai-pertama": {
+  "src": "c",
+  "start": 49.305,
+  "end": 76.425,
+  "pad": 0.25
+ },
+ "ziarah-bir-ali": {
+  "src": "c",
+  "start": 76.425,
+  "end": 100.545,
+  "pad": 0.25
+ },
+ "tips-sebelum-niat-ihram": {
+  "src": "c",
+  "start": 100.545,
+  "end": 121.065,
+  "pad": 0.25
+ },
+ "larangan-ihram-bila-bermula": {
+  "src": "c",
+  "start": 121.065,
+  "end": 143.36,
+  "pad": 0.25
  }
 }

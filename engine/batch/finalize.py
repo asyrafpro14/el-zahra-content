@@ -1,5 +1,5 @@
 # Potong suara pada jeda senyap, mux dengan SFX dan video senyap, mampat ke videos/el-zahra-<slug>.mp4
-# Guna (dari engine/): python3 batch/finalize.py <dir kerja> <a.mp3> <b.mp3> [slug...]
+# Guna (dari engine/): python3 batch/finalize.py <dir kerja> <a.mp3> <b.mp3> [slug...]   |   SRC_C=<c.mp3> python3 batch/finalize.py <dir> - - <slug...>
 import json, subprocess, sys, re, os
 W, SRC = sys.argv[1], {"a": sys.argv[2], "b": sys.argv[3]}
 C = json.load(open("batch/cuts.json")); OUT = os.path.join("..", "videos")
@@ -7,7 +7,8 @@ def sil(f):
     e = subprocess.run(["ffmpeg", "-i", f, "-af", "silencedetect=noise=-38dB:d=0.12", "-f", "null", "-"], capture_output=True, text=True).stderr
     return list(zip([float(x) for x in re.findall(r"silence_start: ([\d.]+)", e)], [float(x) for x in re.findall(r"silence_end: ([\d.]+)", e)]))
 def dur(f): return float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", f]))
-SIL = {k: sil(v) for k, v in SRC.items()}; DUR = {k: dur(v) for k, v in SRC.items()}
+if os.environ.get("SRC_C"): SRC["c"] = os.environ["SRC_C"]   # rakaman ketiga dan seterusnya: SRC_C=<c.mp3> (a dan b boleh diisi "-")
+SRC = {k: v for k, v in SRC.items() if os.path.exists(v)}; SIL = {k: sil(v) for k, v in SRC.items()}; DUR = {k: dur(v) for k, v in SRC.items()}
 def snap(src, t, last=False):
     # jeda senyap paling hampir dengan sempadan t (dalam 0.6 s); pulangkan (tamat klip sebelum, mula klip selepas)
     best = None
