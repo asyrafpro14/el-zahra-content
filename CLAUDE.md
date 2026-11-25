@@ -14,6 +14,7 @@ Yusuf (General Manager, melapor kepada Asyraf), Maryam (Brand Director, penerbit
 ## Peraturan kandungan (wajib)
 - Jenama: hijau #0F3D2E / #1F6B4F, emas #C9A24B, krim #F7F3E8. Nada "kami/anda", tenang dan hormat. Tiada em dash.
 - Tanpa muka. JANGAN gambarkan Nabi, sahabat atau mana-mana manusia: tentera dan orang hanya blok dengan bendera, atau cahaya.
+  - PENGECUALIAN (arahan Asyraf 25 Nov 2026) untuk gaya LUKISAN AI SINEMATIK sahaja: watak manusia boleh dilukis dengan MUKA DITUTUP sepenuhnya (cahaya, bayang, kain, atau dari belakang); tiada mata, hidung atau mulut kelihatan pada mana-mana watak. Nabi Muhammad SAW dan para nabi TIDAK digambarkan dalam apa-apa bentuk. Zaid semak SETIAP shot pada frame sebenar; satu muka kelihatan = shot dibuang. Enjin 3D low-poly kekal tanpa manusia.
 - KETEPATAN VISUAL IBADAH (arahan Asyraf 22 Nov 2026): animasi mesti betul dari segi ibadah, bukan skrip sahaja. Tawaf bergerak LAWAN ARAH JAM (Kaabah di sebelah kiri jemaah); dalam enjin, sudut mesti BERTAMBAH dengan masa (`ang = ph + t * ...`). Zaid semak arah dan susunan visual (tawaf, sa'i, kiblat, lokasi) pada frame sebenar sebelum status `sedia`.
 - Gaya video sirah yang DILULUSKAN Asyraf (22 Nov 2026): 3D low-poly gaya `engine/`, kapsyen ikut perkataan, label 3D, pil kapsyen atas, SFX tanpa muzik, label "Ilustrasi, bukan skala sebenar". Semua video sirah ikut gaya ini.
 - Nilai tinggi yang orang mahu SAVE dan SHARE. Hook dalam 3 saat. Penutup: kaitkan dengan ziarah (apa jemaah boleh lawati hari ini) dan satu pengajaran.

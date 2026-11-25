@@ -13,3 +13,8 @@
 - Sediakan siap-siap 20 video untuk esok dan seterusnya (stok 4 hari ikut campuran harian). Arahan diberi terus kepada Yusuf; kerja Idris (hasil) dan Zaid (semak) dijalankan dalam sesi Asyraf ini.
 - Teguran: animasi tawaf dalam video bergerak ikut arah jam, salah. Tawaf mesti LAWAN ARAH JAM. Semak dua kali ketepatan visual ibadah walaupun perkara kecil; ambil serius. (Dibetulkan malam yang sama: 11 video latar Kaabah dan Fathu Makkah dirender semula.)
 - Setiap video mesti ada CTA untuk follow akaun El Zahra (@elzahratravel).
+
+## 2026-11-25
+- Gaya baru untuk video sirah: lukisan AI sinematik (rujukan reel kisah Bilal yang Asyraf hantar). Asyraf putuskan: watak manusia BOLEH dilukis, dengan MUKA DITUTUP (cahaya, bayang, kain, atau dari belakang). Ini menggantikan peraturan "tanpa manusia" untuk gaya lukisan sahaja.
+- Kekal: Nabi Muhammad SAW dan para nabi TIDAK digambarkan dalam apa-apa bentuk (bukan susuk, bukan bayang, bukan cahaya berbentuk manusia). Had ini ditambah oleh Idris sebagai langkah berhati-hati; Asyraf belum mengubahnya.
+- Percubaan pertama: Tahun Gajah. Kos dilaporkan kepada Asyraf sebelum menjana.
