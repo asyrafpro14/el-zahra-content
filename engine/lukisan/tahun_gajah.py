@@ -27,4 +27,4 @@ cuts = [s["t0"] for s in SHOTS[1:]]
 print(json.dumps(dict(slug="el-zahra-sirah-tahun-gajah", **{"in": sys.argv[1]}, fonts=sys.argv[2], words=WORDS, phrases=PHRASES, shots=SHOTS, cta=CTA, cta_line="untuk kisah seterusnya",
     hook=["Tentera bergajah ", "menuju Kaabah"], hook_t=[0.15, 5.6],
     labels=[dict(text="Surah Al-Fil (surah ke-105)", t0=34.2, t1=36.7), dict(text="Tahun Gajah", t0=39.5, t1=43.0), dict(text="Masjidil Haram, hari ini", t0=43.4, t1=46.6)],
-    ev=dict(whoosh=cuts, boom=[[0.05, 0.7], [26.45, 1.0], [31.1, 0.8]], ticks=[], riser_end=26.42, shimmer=36.85, water=False, wind=[0.0, 46.0], pop=[CTA + 0.25, CTA + 0.7]))))
+    ev=dict(whoosh=cuts, boom=[[0.05, 0.55], [26.45, 0.85], [31.1, 0.7]], ticks=[], riser_end=26.42, shimmer=36.85, water=False, pop=[CTA + 0.25, CTA + 0.7]))))
