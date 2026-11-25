@@ -269,8 +269,8 @@
    "tajuk": "3 perkara sebelum masuk ke Raudhah",
    "file": "videos/el-zahra-tips-permit-raudhah.mp4",
    "status": "posted",
-  "ig_media_id": "18173003314467176",
-  "ig_posted_at": "2026-11-25T08:14:00+08:00",
+   "ig_media_id": "18173003314467176",
+   "ig_posted_at": "2026-11-25T08:14:00+08:00",
    "gaya": "3d-low-poly-tips",
    "caption": "Mahu masuk ke Raudhah? Permit ditempah melalui aplikasi Nusuk. Hadir awal sebelum masa pada permit, dan bawa telefon anda kerana permit disemak di pintu masuk.\n\nPeraturan boleh berubah, jadi semak aplikasi dan rujuk mutawwif anda untuk tempahan.\n\nIlustrasi sahaja, bukan skala sebenar.\n\nFollow @elzahratravel untuk ilmu umrah setiap hari.\n\n#tipsumrah #umrah #elzahratravel",
    "dibuat": "2026-11-22",
@@ -566,6 +566,25 @@
    ],
    "disemak_oleh": "",
    "nota_semakan": "Skrip diluluskan Zaid sebelum rakaman (24 Nov). Video siap BELUM disemak: Zaid perlu semak frame sebenar sebelum status sedia."
+  },
+  {
+   "slug": "el-zahra-sirah-tahun-gajah",
+   "tajuk": "Tahun Gajah: tentera yang tidak sampai ke Kaabah",
+   "file": "videos/el-zahra-sirah-tahun-gajah.mp4",
+   "status": "ditahan",
+   "gaya": "lukisan-sinematik",
+   "caption": "Tentera bergajah Abrahah mara ke Makkah untuk meruntuhkan Kaabah. Abdul Muttalib berkata: aku pemilik unta ini, Kaabah ada Pemiliknya yang akan menjaganya. Kisah ini dirakam dalam Surah Al-Fil, dan pada tahun itulah Nabi Muhammad SAW dilahirkan.\n\nHari ini, Kaabah itulah yang anda tawaf. Pengajarannya: buat bahagian kita, selebihnya serahkan kepada Allah.\n\nIlustrasi sahaja, bukan skala sebenar.\n\nFollow @elzahratravel untuk ilmu umrah setiap hari.\n\n#sirah #tahungajah #umrah #elzahratravel",
+   "dibuat": "2026-11-25",
+   "jenis": "sirah",
+   "sumber": [
+    "https://quran.com/al-fil/1/tafsirs/en-tafisr-ibn-kathir",
+    "https://islamweb.net/en/fatwa/85617/event-of-the-elephant",
+    "https://nu.or.id/sirah-nabawiyah/kisah-abdul-muthalib-dari-melawan-abrahah-hingga-menjaga-nabi-muhammad-kwBOA",
+    "https://www.islam.gov.my/images/ePenerbitan/buletin/BULETIN_KHAS_MAULIDUR_RASUL_1445H.pdf",
+    "https://www.detik.com/hikmah/khazanah/d-6858435/suasana-kota-makkah-jelang-kelahiran-nabi-muhammad-saw"
+   ],
+   "disemak_oleh": "",
+   "nota_semakan": "DITAHAN oleh Idris: percubaan pertama gaya lukisan sinematik (watak bermuka tertutup), menunggu Asyraf tonton dan beri OK. Skrip diluluskan Zaid (25 Nov). Selepas OK Asyraf: tukar kepada menunggu-semakan supaya Zaid semak setiap shot pada frame sebenar (tiada muka kelihatan, Nabi tidak digambarkan). Semakan Idris: tiada muka kelihatan pada 13 imej dan 2 klip."
   }
  ]
 }
