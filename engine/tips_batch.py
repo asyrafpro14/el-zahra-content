@@ -1,6 +1,6 @@
 # Enjin batch untuk video TIPS / PANTANG LARANG / ZIARAH / ADAB. Spesifikasi dalam batch/specs.py (satu entri setiap video).
 # Guna: SLUG=<slug> FAKE=1 PREVIEW=1,6,12 python3 tips_batch.py   |   SLUG=<slug> WORDS=words/<slug>.json OUT=x.mp4 python3 tips_batch.py
-# PRESET: haram (Kaabah), madinah (Masjid Nabawi), quba, qiblatain, birali (masjid putih; birali = miqat Zulhulaifah), hira (Jabal Nur).
+# PRESET: haram (Kaabah), madinah (Masjid Nabawi), quba, qiblatain, birali (masjid putih; birali = miqat Zulhulaifah), hira (Jabal Nur), masa (laluan sa'i: Safa di selatan, Marwah di utara, Kaabah di barat).
 from ezlib import *
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "batch")); from specs import V
 SP = V[os.environ["SLUG"]]; PRESET = SP["preset"]; TAJUK, SC, ROWS, LESSON = SP["kad"], SP["sc"], SP["rows"], SP["lesson"]
@@ -16,7 +16,12 @@ def hgt_m(x, y):
 def hgt_g(x, y):
     r = math.hypot(x, y); a = math.atan2(y, x)
     return 0.25 * math.sin(x * 0.21 + 1.3) * math.cos(y * 0.17) + 15 * math.exp(-(r / 9.5) ** 2) * (1 + 0.10 * math.sin(a * 5) + 0.06 * math.sin(a * 9 + 1)) + 4 * math.exp(-(((x - 26) / 9.0) ** 2 + ((y + 18) / 12.0) ** 2)) + max(0.0, (r - 66) / 10.0) ** 1.6 * 6
-hgt = hgt_h if PRESET == "haram" else hgt_g if PRESET == "hira" else hgt_m
+def hgt_s(x, y):
+    r = math.hypot(x, y); a = math.atan2(y, x); n = 0.2 * math.sin(x * 0.21 + 1.3) * math.cos(y * 0.17)
+    return n * (0.0 if r < 17 else 1.0) + math.exp(-((r - 36) / 7.0) ** 2) * (8 + 2.5 * math.sin(a * 5 + 1) + 1.5 * math.sin(a * 11)) + max(0.0, (r - 66) / 10.0) ** 1.6 * 6
+# PRESET masa: laluan sa'i lurus pada paksi y. Safa di y = -SY (selatan), Marwah di y = +SY (utara), Kaabah di barat (x negatif).
+SY, KX, KY, G0, G1 = 7.6, -5.4, -2.0, -5.0, -2.8   # G0..G1 = kawasan lampu hijau (lebih dekat dengan Safa)
+hgt = hgt_s if PRESET == "masa" else hgt_h if PRESET == "haram" else hgt_g if PRESET == "hira" else hgt_m
 GUA = (2.2, -2.6, hgt_g(2.2, -2.6) + 0.5)
 def col(x, y, z):
     base = np.array([224, 190, 142.0]); k = min(1.0, max(0.0, (z - 1.0) / (9.0 if PRESET == "hira" else 5.0))); return base * (1 - k) + np.array([146, 106, 88.0]) * k
@@ -31,6 +36,18 @@ def build():
     if PRESET == "haram":
         city(sc, hgt, 0, 0, 10.5, 200, hole=3.6); sc.quad((-3.2, -3.2, 0.04), (3.2, -3.2, 0.04), (3.2, 3.2, 0.04), (-3.2, 3.2, 0.04), (236, 226, 204), layer=1, ds=True)
         sc.box(0, 0, 0, 1.5, 1.5, 1.8, (26, 24, 26), top=(40, 38, 40)); sc.box(0, 0, 1.25, 1.54, 1.54, 0.16, (212, 170, 70))
+    elif PRESET == "masa":
+        city(sc, hgt, -2, 0, 19, 230, hole=12.5); sc.quad((-12, -11, 0.03), (5, -11, 0.03), (5, 11, 0.03), (-12, 11, 0.03), (236, 226, 204), layer=1, ds=True)
+        sc.box(KX, KY, 0, 1.5, 1.5, 1.8, (26, 24, 26), top=(40, 38, 40)); sc.box(KX, KY, 1.25, 1.54, 1.54, 0.16, (212, 170, 70))
+        sc.quad((-1.7, -SY - 1.6, 0.05), (1.7, -SY - 1.6, 0.05), (1.7, SY + 1.6, 0.05), (-1.7, SY + 1.6, 0.05), (250, 248, 242), layer=1, ds=True)
+        sc.quad((-0.3, -SY + 1.2, 0.06), (0.3, -SY + 1.2, 0.06), (0.3, SY - 1.2, 0.06), (-0.3, SY - 1.2, 0.06), (196, 214, 226), layer=1, ds=True)
+        for sx_ in (-1.7, 1.7): sc.box(sx_, 0, 0, 0.14, 2 * SY + 3.2, 0.5, (228, 220, 200))
+        for sx_ in (-0.36, 0.36): sc.box(sx_, 0, 0, 0.05, 2 * SY - 2.4, 0.16, (170, 190, 204))
+        for ey, rr, hh in ((-SY - 0.5, 1.9, 1.1), (SY + 0.5, 1.6, 0.8)):
+            sc.pyramid(0, ey, 0.05, rr, hh, (150, 112, 90), n=7); sc.pyramid(0.5, ey + 0.3, 0.05, rr * 0.6, hh * 0.8, (166, 126, 100), n=5, rot=0.6)
+        for gy_ in (G0, G1):
+            sc.quad((-1.62, gy_ - 0.09, 0.07), (1.62, gy_ - 0.09, 0.07), (1.62, gy_ + 0.09, 0.07), (-1.62, gy_ + 0.09, 0.07), (60, 220, 120), layer=1, emit=True)
+            for sx_ in (-1.7, 1.7): sc.box(sx_, gy_, 0.5, 0.2, 0.2, 1.1, (60, 220, 120), emit=True)
     elif PRESET == "hira":
         gx, gy, gz = GUA; sc.box(gx, gy, gz - 0.9, 1.1, 0.9, 0.9, (58, 42, 40), top=(96, 72, 62))
     else:
@@ -41,12 +58,26 @@ def build():
             a = random.uniform(0, 6.283); r = random.uniform(13 if PRESET == "madinah" else 6.5, 22); palm(sc, hgt, r * math.cos(a), r * math.sin(a))
     return sc
 TAWAF = [(random.uniform(2.0, 5.0), random.uniform(0, 6.283), random.uniform(0.8, 1.2)) for _ in range(140)]
+GA, GB, GK = (G0 + SY) / (2 * SY), (G1 + SY) / (2 * SY), 2.2
+def swarp(s_):   # sebahagian jemaah (lelaki) bergerak lebih laju di antara dua lampu hijau
+    b = (GB - GA) / GK; x = s_ * (GA + b + 1 - GB)
+    return x if x < GA else GA + (x - GA) * GK if x < GA + b else GB + (x - GA - b)
+SAI = [(random.uniform(0, 2), random.uniform(0.060, 0.085), random.uniform(0.55, 1.4), i % 2 == 0, False) for i in range(110)] + [(random.uniform(0, 2), random.uniform(0.045, 0.06), 0, False, True) for _ in range(9)]
 def dynamic(t):
     d = Scene(); glows = []
     if PRESET == "haram":
         for r, ph, sp in TAWAF:
             ang = ph + t * 0.45 * sp; d.box(r * math.cos(ang), r * math.sin(ang), 0.05, 0.2, 0.2, 0.3, (248, 246, 240), rot=ang)
         glows.append((0, 0, 1.6, 2.4 + 0.3 * math.sin(t * 3)))
+    elif PRESET == "masa":
+        for r, ph, sp in TAWAF[:60]:
+            ang = ph + t * 0.45 * sp; r = 1.5 + (r - 2.0) * 0.5; d.box(KX + r * math.cos(ang), KY + r * math.sin(ang), 0.05, 0.2, 0.2, 0.3, (248, 246, 240), rot=ang)
+        for ph, v, xo, run_, wc in SAI:
+            u = (ph + t * v) % 2.0; s_ = u if u < 1 else 2 - u; nd = 1 if u < 1 else -1; pos = swarp(s_) if run_ else s_
+            y = -SY + 2 * SY * pos; ing = G0 < y < G1; x = (xo if not wc else 0.0) * nd * min(1.0, s_ / 0.05, (1 - s_) / 0.05) + (0.12 * nd if wc else 0)
+            z = 0.06 + (0.09 * abs(math.sin(t * 11 + ph * 9)) if run_ and ing else 0)
+            if wc: d.box(x, y, z, 0.3, 0.3, 0.14, (52, 84, 120)); d.box(x, y, z + 0.14, 0.18, 0.18, 0.22, (248, 246, 240))
+            else: d.box(x, y, z, 0.2, 0.2, 0.3, (248, 246, 240))
     elif PRESET == "hira": glows.append((GUA[0], GUA[1], GUA[2], 3.0 + 0.5 * math.sin(t * 2.4)))
     return d, glows
 RR = [[30, 13, 18, 11, 22, 26], [26, 15, 11, 19, 13, 24], [32, 12, 20, 14, 24, 16], [24, 16, 12, 21, 11, 27]][VAR]; HH = [[14, 7, 13, 6, 18, 20], [16, 6, 9, 14, 7, 19], [12, 8, 15, 6, 20, 9], [18, 9, 6, 15, 7, 21]][VAR]
@@ -55,6 +86,9 @@ def cam(t):
     R, Hh, Rp, Hp = RR[(k - 1) % 6], HH[(k - 1) % 6], RR[(k - 2) % 6], HH[(k - 2) % 6]
     R = lerp(Rp, R, u) if k > 1 else R; Hh = lerp(Hp, Hh, u) if k > 1 else Hh; a = -1.4 + 1.57 * VAR + (0.10 if VAR % 2 == 0 else -0.10) * t + 0.5 * (k - 1 + u - 1)
     if MOSQ: R, Hh = R * 1.5, Hh * 1.3
+    if PRESET == "masa":
+        zs = [0.0, 0.1, 0.4, 0.2, 0.05, 0.0]; z = lerp(zs[(k - 2) % 6], zs[(k - 1) % 6], u) if k > 1 else 0.0; sw = 2.0 * math.sin(t * 0.16 + VAR)
+        return (lerp(4.5, 4.0, z) + sw, lerp(-30.0, -20.0, z), lerp(19.0, 11.5, z)), (lerp(-1.8, -0.6, z), lerp(3.0, 0.5, z), 0.0)
     if PRESET == "hira": return ((R * 1.9 + 14) * math.cos(a), (R * 1.9 + 14) * math.sin(a), Hh * 1.2 + 12), (0, 0, 9.0)
     return (R * math.cos(a), R * math.sin(a), Hh), (0, 0, 0.8)
 PA, PB, PC = [("dawn", "day", "dusk"), ("day", "dusk", "night"), ("dusk", "day", "dawn"), ("night", "dawn", "day")][VAR]
@@ -75,7 +109,12 @@ def overlay(base, d, t, proj):
         while font("bold", fs).getlength(txt) > 780 and fs > 24: fs -= 2
         dd.text((128, y + 37), txt, font=font("bold", fs), fill=(252, 248, 238, int(255 * p)), anchor="lm")
     paste(base, im, W / 2, 300 + hh / 2, a)
-LBL = {"haram": ("Kaabah", (0, 0, 2.4)), "madinah": ("Masjid Nabawi", (0, 0, 2.4)), "quba": ("Masjid Quba", (0, 0, 2.4)), "qiblatain": ("Masjid Qiblatain", (0, 0, 2.4)), "birali": ("Bir Ali (Zulhulaifah)", (0, 0, 2.4)), "hira": ("Gua Hira", (GUA[0], GUA[1], GUA[2] + 0.8))}[PRESET]
+    if PRESET == "masa":
+        y0 = 300 + hh + 70
+        for txt, anc, t0, t1 in (("Safa", (0, -SY - 0.5, 1.2), T2 + 0.3, t_simpan - 0.5), ("Marwah", (0, SY + 0.5, 0.9), T2 + 0.3, t_simpan - 0.5), ("Lampu hijau", (1.7, (G0 + G1) / 2, 1.0), TS[2] + 0.3, TS[3] - 0.2), ("Laluan kerusi roda", (0, -1.0, 0.2), TS[3] + 0.3, TS[4] - 0.2)):
+            pp = proj(anc)
+            if pp and pp[1] > y0 + 20: label(base, d, proj, txt, None, anc, t, t0, t1, (30, 120, 70) if "hijau" in txt else GOLDT, ymin=y0, dy=120)
+LBL = {"haram": ("Kaabah", (0, 0, 2.4)), "madinah": ("Masjid Nabawi", (0, 0, 2.4)), "quba": ("Masjid Quba", (0, 0, 2.4)), "qiblatain": ("Masjid Qiblatain", (0, 0, 2.4)), "birali": ("Bir Ali (Zulhulaifah)", (0, 0, 2.4)), "masa": ("Laluan sa'i (Mas'a)", (0, 0, 0.6)), "hira": ("Gua Hira", (GUA[0], GUA[1], GUA[2] + 0.8))}[PRESET]
 run(dict(S=S, tag="tb", out=os.environ.get("OUT", "tips.mp4"), build=build, dynamic=dynamic, cam=cam, env=env, overlay=overlay, fogd=0.006,
     hook=[(0.1, HOOK, 330)], labels=[(LBL[0], None, LBL[1], 0.8, T2 - 0.2, GOLDT)], caps=[],
     cta=(t_simpan, t_simpan + 0.8, t_simpan + 1.6), lesson=LESSON,

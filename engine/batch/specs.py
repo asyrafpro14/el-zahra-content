@@ -67,7 +67,7 @@ add("ziarah-gua-hira", "ziarah", "hira", "Gua Hira: tempat wahyu pertama diturun
     [["Di sebuah gua kecil di Makkah,", "wahyu pertama diturunkan."], ["Inilah Gua Hira,", "berhampiran puncak Jabal Nur."], ["Di sinilah turunnya lima ayat pertama", "Surah al-Alaq, bermula dengan Iqra."], ["Mendaki ke sana bukan rukun atau wajib umrah,", "jadi utamakan kesihatan anda."], ["#Simpan video ini untuk ziarah Makkah anda."]])
 
 # Batch 2026-11-24 (skrip/2026-11-24.md). BELUM dirakam: tiada words/<slug>.json lagi, guna FAKE=1 untuk semak susun atur.
-add("tips-sai-pertama", "tips", "haram", "3 perkara untuk sa'i pertama anda", "3 PERKARA SA'I PERTAMA", ["Sa'i ", "kali pertama?"], "Simpan sebelum umrah anda",
+add("tips-sai-pertama", "tips", "masa", "3 perkara untuk sa'i pertama anda", "3 PERKARA SA'I PERTAMA", ["Sa'i ", "kali pertama?"], "Simpan sebelum umrah anda",
     ["Safa ke Marwah, tujuh kali", "Lampu hijau: lelaki berlari anak", "Ada laluan kerusi roda"],
     [["Kali pertama bersa'i?", "Tiga perkara untuk anda ingat."], ["Satu: sa'i bermula di Safa", "dan berakhir di Marwah, tujuh kali.", "Safa ke Marwah dikira satu."], ["Dua: di kawasan lampu hijau,", "lelaki sunat berlari-lari anak.", "Wanita berjalan seperti biasa."], ["Tiga: jika tidak larat,", "ada laluan kerusi roda."], ["#Rujuk mutawwif anda untuk situasi khusus.", "Simpan video ini sebelum umrah anda."]])
 add("tips-sebelum-niat-ihram", "tips", "birali", "3 persediaan sebelum berniat ihram", "3 PERSEDIAAN SEBELUM NIAT IHRAM", ["Sebelum ", "niat ihram"], "Bersiap sebelum tiba di miqat",
