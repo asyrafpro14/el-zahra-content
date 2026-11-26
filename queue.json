@@ -491,7 +491,7 @@
    "slug": "el-zahra-sirah-perjanjian-hudaibiyah",
    "tajuk": "Hudaibiyah: perjanjian yang nampak rugi, tetapi kemenangan",
    "file": "videos/el-zahra-sirah-perjanjian-hudaibiyah.mp4",
-   "status": "menunggu-semakan",
+   "status": "sedia",
    "gaya": "3d-low-poly",
    "caption": "Tahun keenam Hijrah, sekitar 1,400 orang Islam keluar untuk umrah, tetapi dihalang di Hudaibiyah. Perjanjian yang dimeterai di situ nampak seperti rugi, namun selepas itu turun Surah Al-Fath, tentang kemenangan yang nyata.\n\nHari ini kawasan itu dikenali sebagai Asy-Syumaisi, di laluan antara Makkah dan Jeddah. Simpan video ini untuk ziarah anda.\n\nIlustrasi sahaja, bukan skala sebenar.\n\nFollow @elzahratravel untuk ilmu umrah setiap hari.\n\n#sirah #umrah #elzahratravel #hudaibiyah",
    "dibuat": "2026-11-25",
@@ -501,16 +501,17 @@
     "https://nu.or.id/sirah-nabawiyah/lima-butir-perjanjian-hudaibiyah-Xxc3X",
     "https://islamonline.net/en/the-treaty-of-hudaybiyyah/",
     "https://quran.com/al-fath/1/tafsirs/en-tafsir-maarif-ul-quran",
-    "https://www.detik.com/hikmah/kisah/d-7788164/kisah-perjanjian-hudaibiyah-bukti-syiar-islam-penuh-kedamaian"
+    "https://www.detik.com/hikmah/kisah/d-7788164/kisah-perjanjian-hudaibiyah-bukti-syiar-islam-penuh-kedamaian",
+    "https://thepilgrim.co/masjid-al-hudaibiyah/"
    ],
-   "disemak_oleh": "",
-   "nota_semakan": "Skrip diluluskan Zaid sebelum rakaman (23 Nov). Video siap BELUM disemak: Zaid perlu semak frame sebenar sebelum status sedia."
+   "disemak_oleh": "Zaid",
+   "nota_semakan": "Semakan Zaid 26 Nov (AI, bukan asatizah bertauliah). LULUS. Disahkan semula dengan sumber yang dibuka hari ini: tahun 6 Hijrah, sekitar 1,400 orang, niat umrah bukan perang, dihalang Quraisy dan berhenti di Hudaibiyah, gencatan senjata 10 tahun, pulang tahun itu dan umrah tahun berikutnya (Ma'arif al-Qur'an, NU), Surah Al-Fath turun selepas perjanjian (Ma'arif al-Qur'an, IslamOnline, The Pilgrim), kini dikenali sebagai Asy-Syumaisi di laluan Makkah ke Jeddah (Ma'arif al-Qur'an, The Pilgrim, Discover Makkah). Frame sebenar: tiada manusia (blok dan bendera sahaja), label 1,400 / 10 tahun / Al-Fath ayat 1 sepadan dengan skrip, label ilustrasi dan kad Follow ada."
   },
   {
    "slug": "el-zahra-tips-sai-pertama",
    "tajuk": "3 perkara untuk sa'i pertama anda",
    "file": "videos/el-zahra-tips-sai-pertama.mp4",
-   "status": "menunggu-semakan",
+   "status": "ditahan",
    "gaya": "3d-low-poly-tips",
    "caption": "Kali pertama bersa'i? Ingat tiga perkara ini: bermula di Safa dan berakhir di Marwah sebanyak tujuh kali, lelaki sunat berlari-lari anak di kawasan lampu hijau, dan ada laluan kerusi roda untuk yang tidak larat.\n\nRujuk mutawwif anda untuk situasi khusus. Simpan video ini sebelum umrah anda.\n\nFollow @elzahratravel untuk ilmu umrah setiap hari.\n\n#tipsumrah #umrah #elzahratravel #sai",
    "dibuat": "2026-11-25",
@@ -518,16 +519,17 @@
    "sumber": [
     "https://tabunghaji.gov.my/sites/default/kah/TH-NOTA%20KAH%201446H%20_%20M4%20.pdf",
     "https://haj.gov.sa/en/Hajj/saai",
-    "https://www.detik.com/hikmah/panduan-haji-dan-umrah/d-6781738/sai"
+    "https://www.detik.com/hikmah/panduan-haji-dan-umrah/d-6781738/sai",
+    "https://www.islamicstudies.info/subjects/fiqh/fiqh_us_sunnah/fus5_77.html"
    ],
-   "disemak_oleh": "",
-   "nota_semakan": "Skrip diluluskan Zaid sebelum rakaman (23 Nov). Video siap BELUM disemak: Zaid perlu semak frame sebenar sebelum status sedia."
+   "disemak_oleh": "Zaid",
+   "nota_semakan": "Semakan Zaid 26 Nov (AI, bukan asatizah bertauliah). DITAHAN kerana VISUAL, bukan fakta. Skrip dan caption disahkan (Tabung Haji M4, Kementerian Haji Saudi, detik, Fiqh-us-Sunnah: mula di Safa, tamat di Marwah, tujuh kali, Safa ke Marwah dikira satu; lelaki sunat berlari anak di lampu hijau, wanita berjalan biasa; laluan kerusi roda). Masalah: sepanjang video, satu-satunya animasi ibadah ialah jemaah TAWAF mengelilingi Kaabah (PRESET haram), sedangkan suara dan kad menyebut 'Safa ke Marwah, tujuh kali'. Safa, Marwah dan lampu hijau langsung tidak digambarkan; penonton kali pertama boleh terkeliru antara sa'i dengan tawaf (arahan ketepatan visual ibadah 22 Nov). Pembetulan dicadangkan untuk Idris: tambah PRESET baru (contoh `masa`): laluan lurus dengan label Safa dan Marwah di hujung, dua tanda lampu hijau di tengah, blok bergerak ulang-alik; render semula dengan suara yang sama (tiada kredit baru). Tiada pindaan ayat diperlukan. Arah tawaf dalam fail sekarang betul (lawan arah jam)."
   },
   {
    "slug": "el-zahra-ziarah-bir-ali",
    "tajuk": "Bir Ali: miqat jemaah dari Madinah",
    "file": "videos/el-zahra-ziarah-bir-ali.mp4",
-   "status": "menunggu-semakan",
+   "status": "sedia",
    "gaya": "3d-low-poly-tips",
    "caption": "Bir Ali, atau Zulhulaifah, ialah miqat bagi penduduk Madinah dan sesiapa yang melaluinya, tidak jauh dari Madinah. Di sini jemaah solat sunat ihram dan berniat ihram sebelum bertolak ke Makkah.\n\nRujuk mutawwif anda untuk situasi khusus. Simpan video ini untuk perjalanan anda.\n\nIlustrasi sahaja, bukan skala sebenar.\n\nFollow @elzahratravel untuk ilmu umrah setiap hari.\n\n#ziarah #umrah #elzahratravel #birali",
    "dibuat": "2026-11-25",
@@ -536,16 +538,20 @@
     "https://sunnah.com/bukhari:1524",
     "https://en.tohed.com/hadith/muslim/1181/",
     "https://tabunghaji.gov.my/sites/default/kah/TH-NOTA%20KAH%201446H%20_%20M3.pdf",
-    "https://www.detik.com/hikmah/khazanah/d-7378374/menilik-sejarah-masjid-bir-ali-dan-keunikan-arsitekturnya"
+    "https://www.detik.com/hikmah/khazanah/d-7378374/menilik-sejarah-masjid-bir-ali-dan-keunikan-arsitekturnya",
+    "https://news.detik.com/berita/d-4135760/awal-mula-sejarah-miqat-di-bir-ali",
+    "https://nu.or.id/nasional/tak-perlu-turun-calon-jamaah-haji-lansia-boleh-niat-di-bus-saat-miqat-di-bir-ali-V7Jtm",
+    "https://islamweb.net/en/fatwa/537364/visiting-madinah-before-performing-umrah",
+    "https://timesindonesia.co.id/peristiwa/413516/sejarah-miqat-bir-ali-tempat-memulai-niat-berihram"
    ],
-   "disemak_oleh": "",
-   "nota_semakan": "Skrip diluluskan Zaid sebelum rakaman (23 Nov). Video siap BELUM disemak: Zaid perlu semak frame sebenar sebelum status sedia."
+   "disemak_oleh": "Zaid",
+   "nota_semakan": "Semakan Zaid 26 Nov (AI, bukan asatizah bertauliah). LULUS. Disahkan: Bir Ali ialah Zulhulaifah (CNN Indonesia, Times Indonesia, Islamweb); miqat penduduk Madinah dan sesiapa yang melaluinya (hadis Ibnu Abbas riwayat al-Bukhari dan Muslim seperti dipetik detik dan Islamweb); tidak jauh dari Madinah (sekitar 11 km menurut detikNews dan Times Indonesia, angka tidak disebut dalam video); solat sunat ihram kemudian niat di situ (detikNews, NU, Times Indonesia); bersiap dari hotel (NU, Times Indonesia). Had: sunnah.com dan nota Tabung Haji M3 tidak dapat dibuka hari ini; teks hadis disemak melalui petikan sumber lain. Frame sebenar: masjid miqat dan pokok kurma sahaja, tiada manusia, tiada tawaf atau sa'i, label Bir Ali (Zulhulaifah) betul, kad Follow ada."
   },
   {
    "slug": "el-zahra-tips-sebelum-niat-ihram",
    "tajuk": "3 persediaan sebelum berniat ihram",
    "file": "videos/el-zahra-tips-sebelum-niat-ihram.mp4",
-   "status": "menunggu-semakan",
+   "status": "sedia",
    "gaya": "3d-low-poly-tips",
    "caption": "Sebelum berniat ihram, buat tiga persediaan ini: potong kuku dan kemaskan rambut (kerana selepas berniat ia dilarang), mandi sunat ihram, kemudian pakai pakaian ihram dan solat sunat ihram.\n\nRujuk mutawwif anda untuk situasi khusus. Simpan video ini sebelum umrah anda.\n\nIlustrasi sahaja, bukan skala sebenar.\n\nFollow @elzahratravel untuk ilmu umrah setiap hari.\n\n#tipsumrah #umrah #elzahratravel #ihram",
    "dibuat": "2026-11-25",
@@ -553,33 +559,36 @@
    "sumber": [
     "https://tabunghaji.gov.my/sites/default/kah/TH-NOTA%20KAH%201446H%20_%20M5.pdf",
     "https://tabunghaji.gov.my/sites/default/kah/NOTA%20KAH%201446H%20_%20M10%20(1)_0.pdf",
-    "https://muftiwp.gov.my/en/artikel/bayan-linnas/2745-bayan-linnas-siri-ke-152-konsep-nazafah-"
+    "https://muftiwp.gov.my/en/artikel/bayan-linnas/2745-bayan-linnas-siri-ke-152-konsep-nazafah-",
+    "https://prod-th-assets.s3.ap-southeast-1.amazonaws.com/pdf/tab-content/0/2025-09-26/Nota%20M10%201447H_FULL_small.pdf",
+    "https://www.detik.com/hikmah/panduan-haji-dan-umrah/d-6780871/ihram"
    ],
-   "disemak_oleh": "",
-   "nota_semakan": "Skrip diluluskan Zaid sebelum rakaman (24 Nov). Video siap BELUM disemak: Zaid perlu semak frame sebenar sebelum status sedia."
+   "disemak_oleh": "Zaid",
+   "nota_semakan": "Semakan Zaid 26 Nov (AI, bukan asatizah bertauliah). LULUS. Disahkan: potong kuku dan merapikan rambut, mandi sunat ihram, pakaian ihram dan solat sunat ihram sebagai amalan sunat sebelum ihram (nota Tabung Haji M10 1447H, detik; mandi juga NU); selepas berniat, memotong kuku dan menanggalkan rambut termasuk larangan ihram (Tabung Haji M10, detik). 'Kemaskan rambut' ikut lafaz Tabung Haji ('merapikan misai dan rambut'); jangan tukar kepada 'potong rambut kepala'. Had: nota Tabung Haji M5 tidak dapat dibuka hari ini (dibaca Zaid pada 24 Nov). Ayat 'Rujuk mutawwif' ada dalam video dan caption. Frame sebenar: latar miqat Bir Ali, tiada manusia, tiada tawaf atau sa'i, kad Follow ada."
   },
   {
    "slug": "el-zahra-larangan-ihram-bila-bermula",
    "tajuk": "Larangan ihram: bila bermula, bila berakhir",
    "file": "videos/el-zahra-larangan-ihram-bila-bermula.mp4",
-   "status": "menunggu-semakan",
+   "status": "sedia",
    "gaya": "3d-low-poly-tips",
-   "caption": "Sebelum berniat ihram, buat tiga persediaan ini: potong kuku dan kemaskan rambut (kerana selepas berniat ia dilarang), mandi sunat ihram, kemudian pakai pakaian ihram dan solat sunat ihram.\n\nRujuk mutawwif anda untuk situasi khusus. Simpan video ini sebelum umrah anda.\n\nIlustrasi sahaja, bukan skala sebenar.\n\nFollow @elzahratravel untuk ilmu umrah setiap hari.\n\n#tipsumrah #umrah #elzahratravel #ihram",
+   "caption": "Bila larangan ihram bermula dan berakhir ketika umrah? Ia bermula sebaik sahaja anda berniat ihram, berterusan sepanjang tawaf dan sa'i, dan berakhir selepas tahallul, iaitu bercukur atau bergunting rambut selepas sa'i.\n\nRujuk mutawwif anda untuk situasi khusus. Simpan video ini sebelum umrah anda.\n\nIlustrasi sahaja, bukan skala sebenar.\n\nFollow @elzahratravel untuk ilmu umrah setiap hari.\n\n#umrah #ihram #elzahratravel #panduanumrah",
    "dibuat": "2026-11-25",
    "jenis": "pantang-larang",
    "sumber": [
     "https://tabunghaji.gov.my/sites/default/kah/TH-NOTA%20KAH%201446H%20_%20M5.pdf",
     "https://muftiwp.gov.my/ms/artikel/bayan-li-al-haj/689-bayan-li-al-haj-siri-ke-30-pengertian-tahallul",
-    "https://tabunghaji.gov.my/sites/default/kah/NOTA%20KAH%201446H%20_%20M10%20(1)_0.pdf"
+    "https://tabunghaji.gov.my/sites/default/kah/NOTA%20KAH%201446H%20_%20M10%20(1)_0.pdf",
+    "https://prod-th-assets.s3.ap-southeast-1.amazonaws.com/pdf/tab-content/0/2025-09-26/Nota%20M10%201447H_FULL_small.pdf"
    ],
-   "disemak_oleh": "",
-   "nota_semakan": "Skrip diluluskan Zaid sebelum rakaman (24 Nov). Video siap BELUM disemak: Zaid perlu semak frame sebenar sebelum status sedia."
+   "disemak_oleh": "Zaid",
+   "nota_semakan": "Semakan Zaid 26 Nov (AI, bukan asatizah bertauliah). LULUS, dengan CAPTION DIBETULKAN: caption dalam queue tersalin daripada video 'sebelum niat ihram' (salah topik); diganti dengan caption yang diluluskan dalam skrip/2026-11-24.md. Disahkan: larangan bermula selepas niat dan berterusan sehingga bergunting (nota Tabung Haji M10 1447H: 'Selepas niat sehingga bergunting'; turutan niat, tawaf, sa'i, bergunting atau bercukur), tahallul umrah selepas sa'i dan selepas itu bebas daripada larangan ihram (Mufti Wilayah Persekutuan, Bayan li al-Haj 30). Ayat 'Rujuk mutawwif' ada pada kad penutup, suara dan caption. Frame sebenar: tawaf LAWAN ARAH JAM (diukur pada 8 titik masa dalam fail video, sepadan dengan kod `ang = ph + t * ...`), tiada manusia, kad Follow ada."
   },
   {
    "slug": "el-zahra-sirah-tahun-gajah",
    "tajuk": "Tahun Gajah: tentera yang tidak sampai ke Kaabah",
    "file": "videos/el-zahra-sirah-tahun-gajah.mp4",
-   "status": "menunggu-semakan",
+   "status": "sedia",
    "gaya": "lukisan-sinematik",
    "caption": "Tentera bergajah Abrahah mara ke Makkah untuk meruntuhkan Kaabah. Abdul Muttalib berkata: aku pemilik unta ini, Kaabah ada Pemiliknya yang akan menjaganya. Kisah ini dirakam dalam Surah Al-Fil, dan pada tahun itulah Nabi Muhammad SAW dilahirkan.\n\nHari ini, Kaabah itulah yang anda tawaf. Pengajarannya: buat bahagian kita, selebihnya serahkan kepada Allah.\n\nIlustrasi sahaja, bukan skala sebenar.\n\nFollow @elzahratravel untuk ilmu umrah setiap hari.\n\n#sirah #tahungajah #umrah #elzahratravel",
    "dibuat": "2026-11-25",
@@ -589,10 +598,13 @@
     "https://islamweb.net/en/fatwa/85617/event-of-the-elephant",
     "https://nu.or.id/sirah-nabawiyah/kisah-abdul-muthalib-dari-melawan-abrahah-hingga-menjaga-nabi-muhammad-kwBOA",
     "https://www.islam.gov.my/images/ePenerbitan/buletin/BULETIN_KHAS_MAULIDUR_RASUL_1445H.pdf",
-    "https://www.detik.com/hikmah/khazanah/d-6858435/suasana-kota-makkah-jelang-kelahiran-nabi-muhammad-saw"
+    "https://www.detik.com/hikmah/khazanah/d-6858435/suasana-kota-makkah-jelang-kelahiran-nabi-muhammad-saw",
+    "https://www.liputan6.com/quran/al-fil/4",
+    "https://tafsirweb.com/13041-surat-al-fil-ayat-4.html",
+    "https://nu.or.id/tafsir/tafsir-surat-al-fil-ayat-4-5-proses-kehancuran-tentara-gajah-pimpinan-abrahah-kxQCy"
    ],
-   "disemak_oleh": "",
-   "nota_semakan": "Asyraf sudah tonton dan beri OK (25 Nov) untuk gaya lukisan sinematik dan audio versi 2. Skrip diluluskan Zaid (25 Nov). Zaid: semak SETIAP shot pada frame sebenar sebelum sedia (tiada mata, hidung atau mulut kelihatan pada mana-mana watak; Nabi tidak digambarkan; Abdul Muttalib hanya dari belakang dan tangan). Semakan Idris pada resolusi penuh: tiada muka kelihatan pada 13 imej dan 2 klip."
+   "disemak_oleh": "Zaid",
+   "nota_semakan": "Semakan Zaid 26 Nov (AI, bukan asatizah bertauliah). LULUS. Asyraf sudah OK gaya dan audio versi 2 (25 Nov). Fakta disahkan semula hari ini: Abrahah penguasa di Yaman, tentera bergajah untuk meruntuhkan Kaabah, unta Abdul Muttalib dirampas, 'datuk Nabi', ucapan 'aku pemilik unta, Kaabah ada Pemiliknya', penduduk ke bukit, Nabi lahir pada Tahun Gajah (Islamweb, NU); burung berbondong-bondong dan batu daripada tanah yang dibakar, Surah Al-Fil surah ke-105 (terjemahan Kemenag di liputan6 dan tafsirweb, NU tafsir, Jalalayn). Had: Tafsir Ibn Kathir di quran.com dan buletin JAKIM tidak dapat dibuka hari ini (dibaca Zaid pada 25 Nov). Semakan shot pada frame sebenar resolusi penuh (13 imej, 2 klip; klip gajah disemak pada 10 titik masa dengan zum): tiada mata, hidung atau mulut kelihatan pada mana-mana watak (tentera berpenutup muka atau dalam bayang, Abrahah dan pengawal muka gelap sepenuhnya, penduduk dari belakang); Abdul Muttalib dari belakang dan tangan sahaja; Nabi TIDAK digambarkan (babak kelahiran hanya pemandangan kota). Babak Masjidil Haram hari ini ialah imej pegun, tiada arah tawaf digambarkan. Label ilustrasi dan kad Follow ada. Nota: semakan muka dibuat oleh AI pada frame sampel; Asyraf sudah tonton video penuh."
   }
  ]
 }
